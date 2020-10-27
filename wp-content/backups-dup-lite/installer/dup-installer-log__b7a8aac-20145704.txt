@@ -1,0 +1,874 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 01:00:38
+* VERSION: 1.3.38
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.11                                |7.4.11
+OS__________________: WINNT                                 |WINNT
+CREATED_____________: 2020-10-20 14:57:04
+WP VERSION__________: 5.5.1
+DUP VERSION_________: 1.3.38
+DB__________________: 10.4.14
+DB TABLES___________: 66
+DB ROWS_____________: 227,497
+DB FILE SIZE________: 37.06MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.11 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.46 (Win64) PHP/7.4.11
+DOC ROOT____________: "E:/Apache24/htdocs/lida"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/lida/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "E:/Apache24/htdocs/lida/20201019_lidalineacompletachile_[HASH]_20201020145704_archive.zip"
+SIZE________________: 367.2MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "E:/Apache24/htdocs/lida/20201019_lidalineacompletachile_[HASH]_20201020145704_archive.zip"
+SIZE________________: 367.2MBFile timestamp set to Current: 2020-10-27 01:06:54
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 01:06:54 - RUNTIME: 375.4543 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 01:10:02
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 8.0.22 -- Build Server: 10.4.14
+FILE SIZE:	dup-database__[HASH].sql (21.63MB)
+TIMEOUT:	5000
+MAXPACK:	4194304
+SQLMODE:	STRICT_TRANS_TABLES,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[E:/Apache24/htdocs/lida/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [8.0.22] is less than the build version [10.4.14].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+[PHP ERR][WARN] MSG:count(): Parameter must be an array or an object that implements Countable [CODE:2|FILE:E:\Apache24\htdocs\lida\dup-installer\ctrls\ctrl.s2.dbinstall.php|LINE:392]
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	602
+
+wpmu_actionscheduler_actions: (1309)
+wpmu_actionscheduler_claims: (0)
+wpmu_actionscheduler_groups: (5)
+wpmu_actionscheduler_logs: (4089)
+wpmu_commentmeta: (93)
+wpmu_comments: (6521)
+wpmu_duplicator_packages: (0)
+wpmu_links: (0)
+wpmu_nextend2_image_storage: (1)
+wpmu_nextend2_section_storage: (3)
+wpmu_nextend2_smartslider3_generators: (0)
+wpmu_nextend2_smartslider3_sliders: (1)
+wpmu_nextend2_smartslider3_sliders_xref: (0)
+wpmu_nextend2_smartslider3_slides: (3)
+wpmu_options: (680)
+wpmu_postmeta: (132706)
+wpmu_posts: (4043)
+wpmu_revslider_css: (118)
+wpmu_revslider_layer_animations: (3)
+wpmu_revslider_navigations: (0)
+wpmu_revslider_sliders: (5)
+wpmu_revslider_slides: (16)
+wpmu_revslider_static_slides: (1)
+wpmu_shipit: (0)
+wpmu_term_relationships: (163)
+wpmu_term_taxonomy: (87)
+wpmu_termmeta: (97)
+wpmu_terms: (87)
+wpmu_user_shipit: (2)
+wpmu_usermeta: (156)
+wpmu_users: (3)
+wpmu_wc_admin_note_actions: (17)
+wpmu_wc_admin_notes: (14)
+wpmu_wc_category_lookup: (12)
+wpmu_wc_customer_lookup: (2122)
+wpmu_wc_download_log: (0)
+wpmu_wc_order_coupon_lookup: (0)
+wpmu_wc_order_product_lookup: (3950)
+wpmu_wc_order_stats: (3601)
+wpmu_wc_order_tax_lookup: (0)
+wpmu_wc_product_meta_lookup: (21)
+wpmu_wc_reserved_stock: (0)
+wpmu_wc_tax_rate_classes: (4)
+wpmu_wc_webhooks: (0)
+wpmu_wcpdf_invoice_number: (54)
+wpmu_wfpklist_template_data: (7)
+wpmu_woocommerce_api_keys: (1)
+wpmu_woocommerce_attribute_taxonomies: (1)
+wpmu_woocommerce_downloadable_product_permissions: (0)
+wpmu_woocommerce_log: (0)
+wpmu_woocommerce_order_itemmeta: (35976)
+wpmu_woocommerce_order_items: (4083)
+wpmu_woocommerce_payment_tokenmeta: (0)
+wpmu_woocommerce_payment_tokens: (0)
+wpmu_woocommerce_sessions: (41)
+wpmu_woocommerce_shipping_zone_locations: (241)
+wpmu_woocommerce_shipping_zone_methods: (15)
+wpmu_woocommerce_shipping_zones: (15)
+wpmu_woocommerce_tax_rate_locations: (0)
+wpmu_woocommerce_tax_rates: (0)
+wpmu_yoast_indexable: (2004)
+wpmu_yoast_indexable_hierarchy: (1)
+wpmu_yoast_migrations: (18)
+wpmu_yoast_primary_term: (15)
+wpmu_yoast_seo_links: (15891)
+wpmu_yoast_seo_meta: (8886)
+Removed '89' cache/transient rows
+
+INSERT DATA RUNTIME: 122.3765 sec.
+STEP-2 COMPLETE @ 01:12:05 - RUNTIME: 122.6308 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 01:12:27
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Lida Linea Completa Chile"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "E:/xampp/htdocs/lida"
+path_new______________: "E:/Apache24/htdocs/lida"
+siteurl_______________: "http://localhost/lida"
+url_old_______________: "http://localhost/lida"
+url_new_______________: "http://localhost/lida"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wpmu_actionscheduler_actions"____________________[ROWS:  1309][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+
+EVALUATE TABLE: "wpmu_actionscheduler_claims"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpmu_actionscheduler_groups"_____________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+
+EVALUATE TABLE: "wpmu_actionscheduler_logs"_______________________[ROWS:  4089][PG:   2][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+
+EVALUATE TABLE: "wpmu_commentmeta"________________________________[ROWS:    93][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+
+EVALUATE TABLE: "wpmu_comments"___________________________________[ROWS:  6521][PG:   2][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+
+EVALUATE TABLE: "wpmu_duplicator_packages"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpmu_links"______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpmu_nextend2_image_storage"_____________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+
+EVALUATE TABLE: "wpmu_nextend2_section_storage"___________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+
+EVALUATE TABLE: "wpmu_nextend2_smartslider3_generators"___________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpmu_nextend2_smartslider3_sliders"______________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+
+EVALUATE TABLE: "wpmu_nextend2_smartslider3_sliders_xref"_________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpmu_nextend2_smartslider3_slides"_______________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+
+EVALUATE TABLE: "wpmu_options"____________________________________[ROWS:   680][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+
+EVALUATE TABLE: "wpmu_postmeta"___________________________________[ROWS:132706][PG:  38][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+
+EVALUATE TABLE: "wpmu_posts"______________________________________[ROWS:  4043][PG:   2][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+
+EVALUATE TABLE: "wpmu_revslider_css"______________________________[ROWS:   118][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+
+EVALUATE TABLE: "wpmu_revslider_layer_animations"_________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+
+EVALUATE TABLE: "wpmu_revslider_navigations"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpmu_revslider_sliders"__________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+
+EVALUATE TABLE: "wpmu_revslider_slides"___________________________[ROWS:    16][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+
+EVALUATE TABLE: "wpmu_revslider_static_slides"____________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+
+EVALUATE TABLE: "wpmu_shipit"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpmu_term_relationships"_________________________[ROWS:   163][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+
+EVALUATE TABLE: "wpmu_term_taxonomy"______________________________[ROWS:    87][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+
+EVALUATE TABLE: "wpmu_termmeta"___________________________________[ROWS:    97][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+
+EVALUATE TABLE: "wpmu_terms"______________________________________[ROWS:    87][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+
+EVALUATE TABLE: "wpmu_user_shipit"________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+
+EVALUATE TABLE: "wpmu_usermeta"___________________________________[ROWS:   156][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+
+EVALUATE TABLE: "wpmu_users"______________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+
+EVALUATE TABLE: "wpmu_wc_admin_note_actions"______________________[ROWS:    17][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+
+EVALUATE TABLE: "wpmu_wc_admin_notes"_____________________________[ROWS:    14][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+
+EVALUATE TABLE: "wpmu_wc_category_lookup"_________________________[ROWS:    12][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+
+EVALUATE TABLE: "wpmu_wc_customer_lookup"_________________________[ROWS:  2122][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+
+EVALUATE TABLE: "wpmu_wc_download_log"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpmu_wc_order_coupon_lookup"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpmu_wc_order_product_lookup"____________________[ROWS:  3950][PG:   2][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+
+EVALUATE TABLE: "wpmu_wc_order_stats"_____________________________[ROWS:  3601][PG:   2][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+
+EVALUATE TABLE: "wpmu_wc_order_tax_lookup"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpmu_wc_product_meta_lookup"_____________________[ROWS:    21][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+
+EVALUATE TABLE: "wpmu_wc_reserved_stock"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpmu_wc_tax_rate_classes"________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+
+EVALUATE TABLE: "wpmu_wc_webhooks"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpmu_wcpdf_invoice_number"_______________________[ROWS:    54][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+
+EVALUATE TABLE: "wpmu_wfpklist_template_data"_____________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+
+EVALUATE TABLE: "wpmu_woocommerce_api_keys"_______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+
+EVALUATE TABLE: "wpmu_woocommerce_attribute_taxonomies"___________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+
+EVALUATE TABLE: "wpmu_woocommerce_downloadable_product_permissions"[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpmu_woocommerce_log"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpmu_woocommerce_order_itemmeta"_________________[ROWS: 35976][PG:  11][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+
+EVALUATE TABLE: "wpmu_woocommerce_order_items"____________________[ROWS:  4083][PG:   2][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+
+EVALUATE TABLE: "wpmu_woocommerce_payment_tokenmeta"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpmu_woocommerce_payment_tokens"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpmu_woocommerce_sessions"_______________________[ROWS:    41][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+
+EVALUATE TABLE: "wpmu_woocommerce_shipping_zone_locations"________[ROWS:   241][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+
+EVALUATE TABLE: "wpmu_woocommerce_shipping_zone_methods"__________[ROWS:    15][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+
+EVALUATE TABLE: "wpmu_woocommerce_shipping_zones"_________________[ROWS:    15][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+
+EVALUATE TABLE: "wpmu_woocommerce_tax_rate_locations"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpmu_woocommerce_tax_rates"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpmu_yoast_indexable"____________________________[ROWS:  2004][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+
+EVALUATE TABLE: "wpmu_yoast_indexable_hierarchy"__________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+
+EVALUATE TABLE: "wpmu_yoast_migrations"___________________________[ROWS:    18][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+
+EVALUATE TABLE: "wpmu_yoast_primary_term"_________________________[ROWS:    15][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+
+EVALUATE TABLE: "wpmu_yoast_seo_links"____________________________[ROWS: 15891][PG:   5][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+
+EVALUATE TABLE: "wpmu_yoast_seo_meta"_____________________________[ROWS:  8886][PG:   3][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  2:"E:\/xampp\/htdocs\/lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Flida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  4:"E:\xampp\htdocs\lida" ============================> "E:/Apache24/htdocs/lida"
+	SEARCH  5:"E:\\xampp\\htdocs\\lida" =========================> "E:\/Apache24\/htdocs\/lida"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Clida" ====================> "E%3A%2FApache24%2Fhtdocs%2Flida"
+	SEARCH  7:"https://localhost/lida" ==========================> "http://localhost/lida"
+	SEARCH  8:"https:\/\/localhost\/lida" =======================> "http:\/\/localhost\/lida"
+	SEARCH  9:"https%3A%2F%2Flocalhost%2Flida" ==================> "http%3A%2F%2Flocalhost%2Flida"
+--------------------------------------
+SCANNED:	Tables:66 	|	 Rows:227182 	|	 Cells:1361696 
+UPDATED:	Tables:2 	|	 Rows:47 	|	 Cells:47 
+ERRORS:		0 
+RUNTIME:	37.835700 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""lida""
+	UPDATE DB_USER ""root""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 01:13:05 - RUNTIME: 38.0807 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================

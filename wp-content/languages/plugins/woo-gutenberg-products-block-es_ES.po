@@ -1,0 +1,1469 @@
+# Translation of Plugins - WooCommerce Blocks - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - WooCommerce Blocks - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-09-29 16:52:23+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - WooCommerce Blocks - Stable (latest release)\n"
+
+#. Translators: %1$s is referring to a php constant name, %2$s is referring to
+#. the wp-config.php file.
+#: woocommerce-gutenberg-products-block.php:95
+msgid "WooCommerce Blocks development mode requires the %1$s constant to be defined and true in your %2$s file. Otherwise you are loading the blocks package from WooCommerce core."
+msgstr "El modo de desarrollo de WooCommerce Blocks necesita que esté definida la constante %1$s y en «true» en tu archivo %2$s. En caso contrario, estás cargando el paquete de bloques desde el núcleo de WooCommerce."
+
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:163
+msgid "Taxes applied to this shipping rate using the smallest unit of the currency."
+msgstr "Los impuestos aplicados a esta tarifa de envío usando la unidad más pequeña de la moneda."
+
+#: src/StoreApi/Schemas/ProductAttributeSchema.php:38
+msgid "The attribute taxonomy name."
+msgstr "El nombre del atributo de la taxonomía."
+
+#: src/StoreApi/Schemas/ProductSchema.php:402
+msgid "Add to cart URL."
+msgstr "URL de «Añadir al carrito»."
+
+#: src/StoreApi/Schemas/ProductSchema.php:360
+msgid "Is the product stock backordered? This will also return false if backorder notifications are turned off."
+msgstr "¿El stock de productos está reservado? Esto también devolverá falso si los avisos de reservas están desactivados."
+
+#: src/StoreApi/Schemas/ProductSchema.php:342
+msgid "Does the product have additional options before it can be added to the cart?"
+msgstr "¿El producto tiene opciones adicionales antes de poder añadirlo al carrito?"
+
+#: src/StoreApi/Schemas/ProductSchema.php:330
+msgid "The assigned attribute."
+msgstr "El atributo asignado."
+
+#: src/StoreApi/Schemas/ProductSchema.php:317
+msgid "List of variation attributes."
+msgstr "Lista de los atributos de las variaciones."
+
+#: src/StoreApi/Schemas/ProductSchema.php:292
+msgid "The term slug."
+msgstr "El slug del término."
+
+#: src/StoreApi/Schemas/ProductSchema.php:286
+msgid "The term name."
+msgstr "El nombre del término."
+
+#: src/StoreApi/Schemas/ProductSchema.php:280
+msgid "The term ID, or 0 if the attribute is not a global attribute."
+msgstr "El ID del término, o 0 si el atributo no es un atributo global."
+
+#: src/StoreApi/Schemas/ProductSchema.php:273
+msgid "List of assigned attribute terms."
+msgstr "Lista de términos de atributos asignados."
+
+#: src/StoreApi/Schemas/ProductSchema.php:267
+msgid "True if this attribute is used by product variations."
+msgstr "«Verdadero» si este atributo es utilizado por variaciones de producto."
+
+#: src/StoreApi/Schemas/ProductSchema.php:261
+msgid "The attribute taxonomy, or null if the attribute is not taxonomy based."
+msgstr "La taxonomía de atributos, o nulo si el atributo no está basado en una taxonomía."
+
+#: src/StoreApi/Schemas/ProductSchema.php:255
+#: src/StoreApi/Schemas/ProductSchema.php:324
+msgid "The attribute name."
+msgstr "El nombre del atributo."
+
+#: src/StoreApi/Schemas/ProductSchema.php:249
+#: src/StoreApi/Schemas/ProductSchema.php:311
+msgid "The attribute ID, or 0 if the attribute is not taxonomy based."
+msgstr "El ID del atributo, o 0 si el atributo no está basado en una taxonomía."
+
+#: src/StoreApi/Schemas/ProductSchema.php:242
+msgid "List of attributes assigned to the product/variation that are visible or used for variations."
+msgstr "Lista de atributos asignados al producto o variación que son visibles o utilizados por variaciones."
+
+#: src/StoreApi/Schemas/ProductSchema.php:233
+msgid "Tag link"
+msgstr "Enlace de la etiqueta"
+
+#: src/StoreApi/Schemas/ProductSchema.php:208
+msgid "List of tags, if applicable."
+msgstr "Lista de etiquetas, si aplica."
+
+#: src/StoreApi/Schemas/ProductSchema.php:199
+msgid "Category link"
+msgstr "Enlace de la categoría"
+
+#: src/StoreApi/Schemas/ProductSchema.php:187
+msgid "Category name"
+msgstr "Nombre de la categoría"
+
+#: src/StoreApi/Schemas/ProductSchema.php:174
+msgid "List of categories, if applicable."
+msgstr "Lista de categorías, si aplica."
+
+#: src/Assets.php:192
+msgctxt "Word count type. Do not translate!"
+msgid "words"
+msgstr "palabras"
+
+#. translators: %s: number of orders
+#: src/Domain/Services/DraftOrders.php:128
+msgid "Drafts <span class=\"count\">(%s)</span>"
+msgid_plural "Drafts <span class=\"count\">(%s)</span>"
+msgstr[0] "Borradores <span class=\"count\">(%s)</span>"
+msgstr[1] "Borradores <span class=\"count\">(%s)</span>"
+
+#: src/Domain/Services/DraftOrders.php:98
+#: src/Domain/Services/DraftOrders.php:122
+msgctxt "Order status"
+msgid "Draft"
+msgstr "Borrador"
+
+#: src/BlockTypes/Checkout.php:275
+msgid "Credit card"
+msgstr "Tarjeta de crédito"
+
+#. Translators: %1$s table name, %2$s database user, %3$s database name.
+#: src/Installer.php:108
+msgid "WooCommerce %1$s table creation failed. Does the %2$s user have CREATE privileges on the %3$s database?"
+msgstr "Falló la creación de la tabla %1$s de WooCommerce. ¿Tiene el usuario %2$s privilegios de CREATE en la base de datos %3$s?"
+
+#. translators: %s: Payment method name.
+#: src/Payments/PaymentMethodRegistry.php:70
+msgid "Payment method \"%s\" is not registered."
+msgstr "El método de pago «%s» no está registrado."
+
+#. translators: %s: Payment method name.
+#: src/Payments/PaymentMethodRegistry.php:29
+msgid "Payment method \"%s\" is already registered."
+msgstr "El método de pago «%s» ya está registrado."
+
+#: src/Payments/Integrations/Stripe.php:230
+msgid "Diners"
+msgstr "Diners"
+
+#: src/Payments/Integrations/Stripe.php:226
+msgid "JCB"
+msgstr "JCB"
+
+#: src/Payments/Integrations/Stripe.php:222
+msgid "Discover"
+msgstr "Discover"
+
+#: src/Payments/Integrations/Stripe.php:215
+msgid "Mastercard"
+msgstr "Mastercard"
+
+#: src/Payments/Integrations/Stripe.php:211
+msgid "American Express"
+msgstr "American Express"
+
+#: src/Payments/Integrations/Stripe.php:207
+msgid "Visa"
+msgstr "Visa"
+
+#: src/StoreApi/Schemas/ProductSchema.php:304
+msgid "List of variation IDs, if applicable."
+msgstr "Lista de IDs de la variación, si está disponible."
+
+#: src/StoreApi/Schemas/ProductSchema.php:147
+msgid "Price string formatted as HTML."
+msgstr "Cadena de precio en formato HTML."
+
+#: src/StoreApi/Schemas/ProductSchema.php:98
+msgid "Price data provided using the smallest unit of the currency."
+msgstr "Datos de precio facilitados usando la unidad más pequeña de la moneda."
+
+#: src/StoreApi/Schemas/ProductSchema.php:53
+msgid "ID of the parent product, if applicable."
+msgstr "ID del producto padre, si está disponible."
+
+#: src/StoreApi/Schemas/CheckoutSchema.php:125
+msgid "A URL to redirect the customer after checkout. This could be, for example, a link to the payment processors website."
+msgstr "Una URL a la que redirigir al cliente después de finalizar la compra. Podría ser, por ejemplo, un enlace a la web del procesamiento de pagos."
+
+#: src/StoreApi/Schemas/CheckoutSchema.php:109
+msgid "An array of data being returned from the payment gateway."
+msgstr "Un array de datos devueltos por la pasarela de pago."
+
+#: src/StoreApi/Schemas/CheckoutSchema.php:104
+msgid "Status of the payment returned by the gateway. One of success, pending, failure, error."
+msgstr "Estado del pago devuelto por la pasarela de pago. Entre completado, pendiente, fallo, error."
+
+#: src/StoreApi/Schemas/CheckoutSchema.php:98
+msgid "Result of payment processing, or false if not yet processed."
+msgstr "Resultado del procesamiento del pago, o false si aún no se ha procesado."
+
+#: src/StoreApi/Schemas/CheckoutSchema.php:93
+msgid "The ID of the payment method being used to process the payment."
+msgstr "El ID del método de pago que se está usando para procesar el pago."
+
+#: src/StoreApi/Schemas/CheckoutSchema.php:87
+msgid "Shipping address."
+msgstr "Dirección de envío."
+
+#: src/StoreApi/Schemas/CheckoutSchema.php:81
+msgid "Billing address."
+msgstr "Dirección de facturación."
+
+#: src/StoreApi/Schemas/CheckoutSchema.php:75
+msgid "Customer ID if registered. Will return 0 for guests."
+msgstr "ID del cliente si está registrado. Devolverá 0 para los invitados."
+
+#: src/StoreApi/Schemas/CheckoutSchema.php:70
+msgid "Note added to the order by the customer during checkout."
+msgstr "Nota añadida al pedido por el cliente durante el pago."
+
+#: src/StoreApi/Schemas/CheckoutSchema.php:64
+msgid "Order key used to check validity or protect access to certain order data."
+msgstr "Clave del pedido utilizada para comprobar la validez o para proteger el acceso a ciertos datos del pedido."
+
+#: src/StoreApi/Schemas/CheckoutSchema.php:58
+msgid "Order status. Payment providers will update this value after payment."
+msgstr "Estado del pedido. Los proveedores de pagos actualizarán este valor después del pago."
+
+#: src/StoreApi/Schemas/CheckoutSchema.php:52
+msgid "The order ID to process during checkout."
+msgstr "El ID del pedido a procesar durante el pago."
+
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:240
+msgctxt "shipping packages"
+msgid "Shipping"
+msgstr "Envío"
+
+#. translators: %d: shipping package number
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:237
+msgctxt "shipping packages"
+msgid "Shipping %d"
+msgstr "Envío %d"
+
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:203
+msgid "True if this is the rate currently selected by the customer for the cart."
+msgstr "True si es la tarifa seleccionada actualmente por el cliente en el carrito."
+
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:181
+msgid "Meta data attached to the shipping rate."
+msgstr "Datos meta adjuntos a la tarifa de envío."
+
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:175
+msgid "Instance ID of the shipping method that provided the rate."
+msgstr "ID de la instancia del método de envío que facilitó la tarifa."
+
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:169
+msgid "ID of the shipping method that provided the rate."
+msgstr "ID del método de envío que facilitó la tarifa."
+
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:157
+msgid "Price of this shipping rate using the smallest unit of the currency."
+msgstr "Precio de esta tarifa de envío usando la unidad más pequeña de la moneda."
+
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:151
+msgid "Delivery time estimate text, e.g. 3-5 business days."
+msgstr "Texto del tiempo estimado de espera, p.ej. 3-5 días laborales."
+
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:145
+msgid "Description of the shipping rate, e.g. Dispatched via USPS."
+msgstr "Descripción de la tarifa de envío, p.ej. Enviada por Correos."
+
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:139
+msgid "Name of the shipping rate, e.g. Express shipping."
+msgstr "Nombre de la tarifa de envío, p.ej. Envío urgente."
+
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:133
+msgid "ID of the shipping rate."
+msgstr "ID de la tarifa de envío."
+
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:112
+msgid "List of shipping rates."
+msgstr "Lista de tarifas de envío."
+
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:103
+msgid "Quantity of the item in the current package."
+msgstr "Cantidad del producto en el paquete actual."
+
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:97
+msgid "Name of the item."
+msgstr "Nombre del producto."
+
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:83
+msgid "List of cart items the returned shipping rates apply to."
+msgstr "Lista de productos del carrito a los que se aplican las tarifas de envío mostradas."
+
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:39
+msgid "Shipping destination address."
+msgstr "Dirección de destino del envío."
+
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:33
+msgid "Name of the package."
+msgstr "Nombre del paquete."
+
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:27
+msgid "The ID of the package the shipping rates belong to."
+msgstr "El ID del paquete al que pertenecen las tarifas de envío."
+
+#: src/StoreApi/Schemas/ProductCategorySchema.php:48
+msgid "Number of reviews for products in this category."
+msgstr "Número de valoraciones de productos en esta categoría."
+
+#: src/StoreApi/Schemas/CartItemSchema.php:261
+msgid "Line total tax."
+msgstr "Línea total de impuestos."
+
+#: src/StoreApi/Schemas/CartItemSchema.php:255
+msgid "Line total (the price of the product after coupon discounts have been applied)."
+msgstr "Línea total (el precio del producto una vez se han aplicado los descuentos del cupón)."
+
+#: src/StoreApi/Schemas/CartItemSchema.php:249
+msgid "Line subtotal tax."
+msgstr "Línea de subtotal de impuestos."
+
+#: src/StoreApi/Schemas/CartItemSchema.php:243
+msgid "Line subtotal (the price of the product before coupon discounts have been applied)."
+msgstr "Línea de subtotal (el precio del producto antes de aplicar los descuentos del cupón)."
+
+#: src/StoreApi/Schemas/CartItemSchema.php:235
+msgid "Item total amounts provided using the smallest unit of the currency."
+msgstr "Cantidades totales del producto ofrecidas usando la unidad más pequeña de la moneda."
+
+#: src/StoreApi/Schemas/CartItemSchema.php:206
+msgid "Decimal precision of the returned prices."
+msgstr "Precisión decimal de los precios ofrecidos."
+
+#: src/StoreApi/Schemas/CartItemSchema.php:200
+msgid "Raw unrounded product prices used in calculations. Provided using a higher unit of precision than the currency."
+msgstr "Precios de productos en bruto sin redondear utilizados en los cálculos. Proporcionados usando una unidad de precisión mayor que la moneda."
+
+#: src/StoreApi/Schemas/CartItemSchema.php:154
+msgid "Price data for the product in the current line item, including or excluding taxes based on the \"display prices during cart and checkout\" setting. Provided using the smallest unit of the currency."
+msgstr "Datos de precio del producto en el producto de la línea actual, incluyendo o excluyendo impuestos basado en el ajuste de «mostrar precios en el carrito y al finalizar compra». Ofrecido usando la unidad más pequeña de la moneda."
+
+#: src/StoreApi/Schemas/ProductSchema.php:372
+#: src/StoreApi/Schemas/CartItemSchema.php:108
+msgid "If true, only one item of this product is allowed for purchase in a single order."
+msgstr "Si es true, solo se permite comprar en cada pedido un artículo de este producto."
+
+#: src/StoreApi/Schemas/CartItemSchema.php:96
+msgid "True if backorders are allowed past stock availability."
+msgstr "True si se permiten los pedidos reservados en el pasado."
+
+#: src/StoreApi/Schemas/ProductSchema.php:366
+#: src/StoreApi/Schemas/CartItemSchema.php:90
+msgid "Quantity left in stock if stock is low, or null if not applicable."
+msgstr "Cantidad que queda en el inventario si el inventario es bajo, o nulo si no es aplicable."
+
+#: src/StoreApi/Schemas/ProductSchema.php:82
+#: src/StoreApi/Schemas/CartItemSchema.php:78
+msgid "Product full description in HTML format."
+msgstr "Descripción completa del producto en formato HTML."
+
+#: src/StoreApi/Schemas/ProductSchema.php:77
+#: src/StoreApi/Schemas/CartItemSchema.php:72
+msgid "Product short description in HTML format."
+msgstr "Descripción corta del producto en formato HTML."
+
+#: src/StoreApi/Schemas/ProductSchema.php:378
+#: src/StoreApi/Schemas/CartItemSchema.php:60
+msgid "The maximum quantity than can be added to the cart at once."
+msgstr "La cantidad máxima que se puede añadir al carrito de una vez."
+
+#: src/StoreApi/Schemas/ErrorSchema.php:32
+msgid "Error message"
+msgstr "Mensaje de error"
+
+#: src/StoreApi/Schemas/ErrorSchema.php:26
+msgid "Error code"
+msgstr "Código de error"
+
+#: src/StoreApi/Schemas/CartSchema.php:244
+msgid "List of cart item errors, for example, items in the cart which are out of stock."
+msgstr "Lista de errores en los productos del carrito, por ejemplo, productos en el carrito sin existencias."
+
+#: src/StoreApi/Schemas/CartSchema.php:232
+msgid "The amount of tax charged."
+msgstr "El importe de impuestos cargado."
+
+#: src/StoreApi/Schemas/CartSchema.php:226
+msgid "The name of the tax."
+msgstr "El nombre del impuesto."
+
+#: src/StoreApi/Schemas/CartSchema.php:218
+msgid "Lines of taxes applied to items and shipping."
+msgstr "Líneas de impuestos aplicadas a los productos y al envío."
+
+#: src/StoreApi/Schemas/CartSchema.php:212
+msgid "Total tax applied to items and shipping."
+msgstr "Total de impuestos aplicados a los productos y al envío."
+
+#: src/StoreApi/Schemas/CartSchema.php:206
+msgid "Total price the customer will pay."
+msgstr "Total del precio que pagará el cliente."
+
+#: src/StoreApi/Schemas/CartSchema.php:200
+msgid "Total tax on shipping."
+msgstr "Total de impuestos en el envío."
+
+#: src/StoreApi/Schemas/CartSchema.php:194
+msgid "Total price of shipping."
+msgstr "Precio total del envío."
+
+#: src/StoreApi/Schemas/CartSchema.php:188
+msgid "Total tax removed due to discount from applied coupons."
+msgstr "Total de impuestos eliminados debido al descuento de los cupones aplicados."
+
+#: src/StoreApi/Schemas/CartSchema.php:182
+msgid "Total discount from applied coupons."
+msgstr "Total descontado por los cupones aplicados."
+
+#: src/StoreApi/Schemas/CartSchema.php:176
+msgid "Total tax on fees."
+msgstr "Total de impuestos en las cuotas."
+
+#: src/StoreApi/Schemas/CartSchema.php:170
+msgid "Total price of any applied fees."
+msgstr "Precio total de cualquier cuota aplicada."
+
+#: src/StoreApi/Schemas/CartSchema.php:164
+msgid "Total tax on items in the cart."
+msgstr "Total de impuestos de los productos del carrito."
+
+#: src/StoreApi/Schemas/CartSchema.php:158
+msgid "Total price of items in the cart."
+msgstr "Precio total de los productos del carrito."
+
+#: src/StoreApi/Schemas/CartSchema.php:150
+msgid "Cart total amounts provided using the smallest unit of the currency."
+msgstr "Cantidades totales del carrito ofrecidas usando la unidad más pequeña de la moneda."
+
+#: src/StoreApi/Schemas/CartSchema.php:138
+msgid "True if the cart needs payment. False for carts with only free products and no shipping costs."
+msgstr "True si el carrito necesita un pago. False si los carritos solo tienen productos gratuitos y no tienen costes de envío."
+
+#: src/StoreApi/Schemas/CartSchema.php:106
+msgid "Current set shipping address for the customer."
+msgstr "La dirección de envío actual del cliente."
+
+#: src/StoreApi/Schemas/CartSchema.php:96
+msgid "List of available shipping rates for the cart."
+msgstr "Lista de de tarifas de envío disponibles en el carrito."
+
+#: src/StoreApi/Schemas/CartSchema.php:86
+msgid "List of applied cart coupons."
+msgstr "Lista de cupones aplicados al carrito."
+
+#: src/StoreApi/Schemas/ProductCollectionDataSchema.php:49
+msgid "Returns number of products within attribute terms."
+msgstr "Devuelve el número de productos dentro de los términos del atributo."
+
+#: src/StoreApi/Schemas/ProductCollectionDataSchema.php:26
+msgid "Min and max prices found in collection of products, provided using the smallest unit of the currency."
+msgstr "Precios máximos y mínimos encontrados en la colección de productos, ofrecidas usando la unidad más pequeña de la moneda."
+
+#: src/StoreApi/Schemas/TermSchema.php:50
+msgid "Parent term ID, if applicable."
+msgstr "ID del término superior, si procede."
+
+#: src/StoreApi/Schemas/AbstractSchema.php:168
+#: src/StoreApi/Schemas/AbstractSchema.php:174
+msgid "Price prefix for the currency which can be used to format returned prices."
+msgstr "Prefijo del precio para la moneda que puede usarse para dar formato a los precios mostrados."
+
+#: src/StoreApi/Schemas/AbstractSchema.php:162
+msgid "Thousand separator for the currency which can be used to format returned prices."
+msgstr "Separador de miles para la moneda que puede usarse para dar formato a los precios mostrados."
+
+#: src/StoreApi/Schemas/AbstractSchema.php:156
+msgid "Decimal separator for the currency which can be used to format returned prices."
+msgstr "Separador decimal para la moneda que puede usarse para dar formato a los precios mostrados."
+
+#: src/StoreApi/Schemas/AbstractSchema.php:150
+msgid "Currency minor unit (number of digits after the decimal separator) for returned prices."
+msgstr "Unidad menor de la moneda (número de dígitos a continuación del separador decimal) para los precios mostrados."
+
+#: src/StoreApi/Schemas/AbstractSchema.php:144
+msgid "Currency symbol for the currency which can be used to format returned prices."
+msgstr "Símbolo de moneda para la moneda que puede usarse para dar formato a los precios mostrados."
+
+#: src/StoreApi/Schemas/AbstractSchema.php:138
+msgid "Currency code (in ISO format) for returned prices."
+msgstr "Código de moneda (en formato ISO) para los precios mostrados."
+
+#: src/StoreApi/Schemas/OrderCouponSchema.php:45
+#: src/StoreApi/Schemas/CartCouponSchema.php:51
+msgid "Total tax removed due to discount applied by this coupon."
+msgstr "Total de impuestos eliminados debido al descuento aplicado por este cupón."
+
+#: src/StoreApi/Schemas/OrderCouponSchema.php:39
+#: src/StoreApi/Schemas/CartCouponSchema.php:45
+msgid "Total discount applied by this coupon."
+msgstr "Total del descuento aplicado por este cupón."
+
+#: src/StoreApi/Schemas/OrderCouponSchema.php:31
+#: src/StoreApi/Schemas/CartCouponSchema.php:37
+msgid "Total amounts provided using the smallest unit of the currency."
+msgstr "Cantidades totales ofrecidas usando la unidad más pequeña de la moneda."
+
+#: src/StoreApi/Schemas/OrderCouponSchema.php:25
+#: src/StoreApi/Schemas/CartCouponSchema.php:28
+msgid "The coupons unique code."
+msgstr "El código único de los cupones."
+
+#: src/StoreApi/Schemas/BillingAddressSchema.php:80 build/checkout.js:1
+#: build/checkout-frontend.js:14
+#: assets/js/blocks/cart-checkout/checkout/form/shipping-fields-step.js:52
+#: assets/js/blocks/cart-checkout/checkout/edit.js:133
+msgid "Phone"
+msgstr "Teléfono"
+
+#: src/StoreApi/Schemas/BillingAddressSchema.php:74
+msgid "Email"
+msgstr "Correo electrónico"
+
+#. translators: Placeholders are class and method names
+#: src/StoreApi/Schemas/BillingAddressSchema.php:117
+#: src/StoreApi/Schemas/ShippingAddressSchema.php:105
+msgid "%1$s requires an instance of %2$s or %3$s for the address"
+msgstr "%1$s requiere una instancia de %2$s o %3$s para la dirección"
+
+#: src/StoreApi/Schemas/BillingAddressSchema.php:69
+#: src/StoreApi/Schemas/ShippingAddressSchema.php:70
+msgid "Country/Region code in ISO 3166-1 alpha-2 format."
+msgstr "Código de país/región en formato ISO 3166-1 alpha-2."
+
+#: src/StoreApi/Schemas/BillingAddressSchema.php:64
+#: src/StoreApi/Schemas/ShippingAddressSchema.php:65 build/checkout.js:1
+#: build/cart.js:1 build/cart-frontend.js:6 build/checkout-frontend.js:6
+#: assets/js/base/components/cart-checkout/address-form/default-address-fields.js:115
+msgid "Postal code"
+msgstr "Código postal"
+
+#: src/StoreApi/Schemas/BillingAddressSchema.php:59
+#: src/StoreApi/Schemas/ShippingAddressSchema.php:60
+msgid "State/County code, or name of the state, county, province, or district."
+msgstr "Código de provincia/condado, o nombre de la provincia, condado, o distrito."
+
+#: src/StoreApi/Schemas/BillingAddressSchema.php:54
+#: src/StoreApi/Schemas/ShippingAddressSchema.php:55 build/checkout.js:1
+#: build/cart.js:1 build/cart-frontend.js:6 build/checkout-frontend.js:6
+#: assets/js/base/components/cart-checkout/address-form/default-address-fields.js:94
+msgid "City"
+msgstr "Ciudad"
+
+#: src/StoreApi/Schemas/BillingAddressSchema.php:49
+#: src/StoreApi/Schemas/ShippingAddressSchema.php:50 build/checkout.js:1
+#: build/cart.js:1 build/cart-frontend.js:6 build/checkout-frontend.js:6
+#: assets/js/blocks/cart-checkout/checkout/edit.js:121
+#: assets/js/base/components/cart-checkout/address-form/default-address-fields.js:71
+msgid "Apartment, suite, etc."
+msgstr "Apartamento, habitación, escalera, etc."
+
+#: src/StoreApi/Schemas/BillingAddressSchema.php:44
+#: src/StoreApi/Schemas/ShippingAddressSchema.php:45 build/checkout.js:1
+#: build/cart.js:1 build/cart-frontend.js:6 build/checkout-frontend.js:6
+#: assets/js/base/components/cart-checkout/address-form/default-address-fields.js:59
+msgid "Address"
+msgstr "Dirección"
+
+#: src/StoreApi/Schemas/BillingAddressSchema.php:39
+#: src/StoreApi/Schemas/ShippingAddressSchema.php:40 build/checkout.js:1
+#: build/cart.js:1 build/cart-frontend.js:6 build/checkout-frontend.js:6
+#: assets/js/blocks/cart-checkout/checkout/edit.js:97
+#: assets/js/base/components/cart-checkout/address-form/default-address-fields.js:47
+msgid "Company"
+msgstr "Empresa"
+
+#: src/StoreApi/Schemas/BillingAddressSchema.php:34
+#: src/StoreApi/Schemas/ShippingAddressSchema.php:35 build/checkout.js:1
+#: build/cart.js:1 build/cart-frontend.js:6 build/checkout-frontend.js:6
+#: assets/js/base/components/cart-checkout/address-form/default-address-fields.js:35
+msgid "Last name"
+msgstr "Apellidos"
+
+#: src/StoreApi/Schemas/BillingAddressSchema.php:29
+#: src/StoreApi/Schemas/ShippingAddressSchema.php:30 build/checkout.js:1
+#: build/cart.js:1 build/cart-frontend.js:6 build/checkout-frontend.js:6
+#: assets/js/base/components/cart-checkout/address-form/default-address-fields.js:23
+msgid "First name"
+msgstr "Nombre"
+
+#: src/StoreApi/Routes/Products.php:304
+msgid "Limit result set to products based on a maximum price, provided using the smallest unit of the currency."
+msgstr "Limita el conjunto de resultados a productos basados en un precio máximo, facilitado usando la unidad más pequeña de la moneda."
+
+#: src/StoreApi/Routes/Products.php:297
+msgid "Limit result set to products based on a minimum price, provided using the smallest unit of the currency."
+msgstr "Limita el conjunto de resultados a productos basados en un precio mínimo, facilitado usando la unidad más pequeña de la moneda."
+
+#. translators: 1: valid states
+#: src/StoreApi/Routes/CartUpdateShipping.php:203
+msgid "Destination state is not valid. Please enter one of the following: %s"
+msgstr "La provincia de destino no es válida. Por favor, introduce una de los siguientes: %s"
+
+#. translators: 1: valid country codes
+#: src/StoreApi/Routes/CartUpdateShipping.php:176
+msgid "Destination country code is not valid. Please enter one of the following: %s"
+msgstr "El código del país de destino no es válido. Por favor, introduce uno de los siguientes: %s"
+
+#. translators: 1: valid country codes
+#: src/StoreApi/Routes/CartUpdateShipping.php:158
+msgid "No destination country code was given. Please provide one of the following: %s"
+msgstr "No se ha dado ningún código de país de destino. Por favor, facilitla uno de los siguientes: %s"
+
+#: src/StoreApi/Routes/CartUpdateShipping.php:94
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:75
+msgid "ISO code for the country of the address being shipped to."
+msgstr "El código ISo del país de la dirección a la que se está realizando el envío."
+
+#: src/StoreApi/Routes/CartUpdateShipping.php:87
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:69
+msgid "Zip or Postcode of the address being shipped to."
+msgstr "Código postal de la dirección a la que se está realizando el envío. "
+
+#: src/StoreApi/Routes/CartUpdateShipping.php:80
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:63
+msgid "ISO code, or name, for the state, province, or district of the address being shipped to."
+msgstr "Código ISO, o nombre, de la provincia o distrito de la dirección a la que se está realizando el envío."
+
+#: src/StoreApi/Routes/CartUpdateShipping.php:73
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:57
+msgid "City of the address being shipped to."
+msgstr "Ciudad de la dirección a la que se está haciendo el envío."
+
+#: src/StoreApi/Routes/CartUpdateShipping.php:66
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:51
+msgid "Second line of the address being shipped to."
+msgstr "Segunda línea de la dirección a la que se está haciendo el envío."
+
+#: src/StoreApi/Routes/CartUpdateShipping.php:59
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:45
+msgid "First line of the address being shipped to."
+msgstr "Primera línea de la dirección a la que se está haciendo el envío."
+
+#: src/StoreApi/Routes/CartUpdateShipping.php:51
+msgid "Customer last name."
+msgstr "Apellidos del cliente."
+
+#: src/StoreApi/Routes/CartUpdateShipping.php:43
+msgid "Customer first name."
+msgstr "Nombre del cliente."
+
+#: src/StoreApi/Routes/CartCouponsByCode.php:62
+#: src/StoreApi/Routes/CartCouponsByCode.php:79
+msgid "Coupon does not exist in the cart."
+msgstr "El cupón no existe en el carrito."
+
+#: src/StoreApi/Routes/AbstractRoute.php:197
+msgid "Scope under which the request is made; determines fields present in response."
+msgstr "Ámbito bajo la cual se realiza la solicitud; determina los campos presentes en la respuesta."
+
+#: src/StoreApi/Routes/AbstractRoute.php:121
+#: src/StoreApi/Routes/AbstractRoute.php:133
+#: src/StoreApi/Routes/AbstractRoute.php:145
+#: src/StoreApi/Routes/AbstractRoute.php:157
+msgid "Method not implemented"
+msgstr "Método no implementado"
+
+#: src/StoreApi/Routes/AbstractRoute.php:108
+msgid "X-WC-Store-API-Nonce is invalid."
+msgstr "El X-WC-Store-API-Nonce no es válido."
+
+#: src/StoreApi/Routes/AbstractRoute.php:102
+msgid "Missing the X-WC-Store-API-Nonce header. This endpoint requires a valid nonce."
+msgstr "No está disponible la cabecera X-WC-Store-API-Nonce. Esta variable requiere un nonce válido."
+
+#: src/StoreApi/Routes/CartUpdateItem.php:38
+msgid "New quantity of the item in the cart."
+msgstr "Nueva cantidad del producto en el carrito."
+
+#: src/StoreApi/Routes/CartUpdateItem.php:34
+msgid "Unique identifier (key) for the cart item to update."
+msgstr "Identificador único (clave) del producto del carrito a actualizar."
+
+#: src/StoreApi/Routes/Checkout.php:460
+msgid "This payment gateway is not available."
+msgstr "Esta pasarela de pago no está disponible."
+
+#. Translators: %s list of gateway ids.
+#: src/StoreApi/Routes/Checkout.php:434
+msgid "Invalid payment method provided. Please provide one of the following: %s"
+msgstr "Se ha facilitado un método de pago no válido. Por favor, facilita uno de los siguientes: %s"
+
+#: src/StoreApi/Routes/Checkout.php:424
+msgid "No payment method provided."
+msgstr "No se ha facilitado ningún método de pago."
+
+#: src/StoreApi/Routes/Checkout.php:399
+msgid "Invalid payment result received from payment method."
+msgstr "Resultado de pago no válido recibido del método de pago."
+
+#: src/StoreApi/Routes/Checkout.php:150
+msgid "This session has no orders pending payment."
+msgstr "Esta sesión no tiene pedidos con pagos pendientes."
+
+#: src/StoreApi/Routes/Checkout.php:74
+msgid "Data to pass through to the payment method when processing payment."
+msgstr "Datos a pasar con el método de pago al procesar el pago."
+
+#: src/StoreApi/Routes/CartSelectShippingRate.php:62
+msgid "Invalid Package ID."
+msgstr "ID de paquete no válido."
+
+#: src/StoreApi/Routes/CartUpdateShipping.php:115
+#: src/StoreApi/Routes/CartSelectShippingRate.php:58
+msgid "Shipping is disabled."
+msgstr "El envío está desactivado."
+
+#: src/StoreApi/Routes/CartSelectShippingRate.php:39
+msgid "The chosen rate ID for the package."
+msgstr "El ID de la tarifa elegida para el paquete."
+
+#: src/StoreApi/Routes/CartSelectShippingRate.php:34
+msgid "The ID of the package being shipped."
+msgstr "El ID del paquete que se está enviando."
+
+#: src/StoreApi/Routes/AbstractTermsRoute.php:89
+msgid "If true, empty terms will not be returned."
+msgstr "Si es true, no se mostrarán los términos vacíos."
+
+#: src/StoreApi/Routes/AbstractTermsRoute.php:77
+msgid "Sort by term property."
+msgstr "Ordenar por propiedad del término."
+
+#: src/StoreApi/Routes/AbstractTermsRoute.php:69
+msgid "Sort ascending or descending."
+msgstr "Ordenar en ascendente o desdendente."
+
+#: src/StoreApi/Routes/ProductCategoriesById.php:59
+msgid "Invalid category ID."
+msgstr "ID de categoría no válido."
+
+#: src/StoreApi/Routes/CartRemoveCoupon.php:65
+msgid "Coupon cannot be removed because it is not already applied to the cart."
+msgstr "El cupón no se pudo eliminar debido a que ya no está aplicado en el carrito."
+
+#: src/StoreApi/Routes/CartRemoveCoupon.php:61
+msgid "Invalid coupon code."
+msgstr "Código de cupón no válido."
+
+#: src/StoreApi/Routes/CartRemoveCoupon.php:52
+#: src/StoreApi/Routes/CartCoupons.php:85
+#: src/StoreApi/Routes/CartApplyCoupon.php:52
+msgid "Coupons are disabled."
+msgstr "Los cupones están desactivados."
+
+#: src/StoreApi/Routes/CartRemoveCoupon.php:34
+#: src/StoreApi/Routes/CartCouponsByCode.php:30
+#: src/StoreApi/Routes/CartApplyCoupon.php:34
+msgid "Unique identifier for the coupon within the cart."
+msgstr "Identificador único para el cupón en el carrito."
+
+#: src/StoreApi/Routes/CartRemoveItem.php:56
+msgid "Cart item no longer exists or is invalid."
+msgstr "El producto del carrito ya no existe o no es válido."
+
+#: src/StoreApi/Routes/CartRemoveItem.php:34
+msgid "Unique identifier (key) for the cart item."
+msgstr "Identificador único (clave) del producto del carrito."
+
+#: src/StoreApi/Routes/ProductReviews.php:205
+msgid "Limit result set to reviews from specific category IDs."
+msgstr "Limita el conjunto de resultados a las valoraciones de IDs de categorías específicas."
+
+#: src/StoreApi/Routes/Products.php:117
+#: src/StoreApi/Routes/AbstractTermsRoute.php:33
+#: src/StoreApi/Routes/ProductReviews.php:166
+msgid "Maximum number of items to be returned in result set. Defaults to no limit if left blank."
+msgstr "Número máximo de productos a mostrar en el conjunto de resultados. Por defecto no hay límite si se deja en blanco."
+
+#. translators: %s: product name
+#: src/StoreApi/Utilities/CartController.php:699
+msgid "&quot;%s&quot; is not available for purchase."
+msgstr "&quot;%s&quot; no está disponible para comprar."
+
+#. translators: %1$s coupon code, %2$s reason.
+#: src/StoreApi/Utilities/CartController.php:603
+msgid "The \"%1$s\" coupon has been removed from your cart: %2$s"
+msgstr "El cupón «%1$s» se ha eliminado de tu carrito: %2$s"
+
+#. translators: %s: coupon code
+#: src/StoreApi/Utilities/CartController.php:563
+msgid "\"%s\" has already been applied and cannot be used in conjunction with other coupons."
+msgstr "«%s» ya ha sido aplicado y no puede utilizarse en conjunto con otros cupones."
+
+#. Translators: %s coupon code
+#: src/StoreApi/Utilities/CartController.php:532
+msgid "Coupon code \"%s\" has already been applied."
+msgstr "El código de cupón «%s» ya se ha aplicado."
+
+#. Translators: %s coupon code
+#: src/StoreApi/Utilities/CartController.php:520
+msgid "\"%s\" is an invalid coupon code."
+msgstr "«%s» es un código de cupón no válido."
+
+#. translators: 1: quantity in stock, 2: product name
+#: src/StoreApi/Utilities/CartController.php:294
+msgid "There is only %1$s unit of &quot;%2$s&quot; in stock."
+msgid_plural "There are only %1$s units of &quot;%2$s&quot; in stock."
+msgstr[0] "Solo hay %1$s unidad de &quot;%2$s&quot; disponible."
+msgstr[1] "Solo hay %1$s unidades de &quot;%2$s&quot; disponibles."
+
+#. translators: %s: product name
+#: src/StoreApi/Utilities/CartController.php:266
+msgid "There are too many &quot;%s&quot; in the cart. Only 1 can be purchased."
+msgstr "Hay demasiados &quot;%s&quot; en el carrito. Solo se puede comprar 1."
+
+#: src/StoreApi/Utilities/CartController.php:120
+msgid "Cart item is invalid."
+msgstr "El producto el carrito no es válido."
+
+#. translators: %s: product name
+#: src/StoreApi/Utilities/ReserveStock.php:180
+msgid "Not enough units of %s are available in stock to fulfil this order."
+msgstr "No hay suficientes unidades disponibles en el inventario de %s para cubrir este pedido."
+
+#. translators: %s: product name
+#: src/StoreApi/Utilities/ReserveStock.php:85
+#: src/StoreApi/Utilities/CartController.php:278
+msgid "&quot;%s&quot; is out of stock and cannot be purchased."
+msgstr "No hay existencias de &quot;%s&quot; y no se puede comprar."
+
+#. Translators: %s Coupon codes.
+#: src/StoreApi/Utilities/OrderController.php:146
+msgid "Invalid coupons were removed from the cart: \"%s\""
+msgstr "Los cupones no válidos se han eliminado del carrito: «%s»"
+
+#: src/StoreApi/Utilities/OrderController.php:25
+msgid "Cannot create order from empty cart."
+msgstr "No se puede crear un pedido de un carrito vacío."
+
+#. translators: %s number of products in cart.
+#: src/BlockTypes/ProductCategories.php:349
+msgid "%d product"
+msgid_plural "%d products"
+msgstr[0] "%d producto"
+msgstr[1] "%d productos"
+
+#: src/BlockTypes/ProductCategories.php:194
+msgid "List of categories with their product counts"
+msgstr "Lista de categorías con el recuento de sus productos"
+
+#: src/BlockTypes/AbstractProductGrid.php:424
+#: build/atomic-block-components/sale-badge-frontend.js:1
+#: build/atomic-block-components/image-frontend.js:1
+#: build/atomic-block-components/sale-badge.js:1 build/all-products.js:1
+#: assets/js/atomic/blocks/product-elements/sale-badge/block.js:53
+msgid "Product on sale"
+msgstr "Producto en oferta"
+
+#: src/StoreApi/Routes/ProductCollectionData.php:164
+msgid "Query type being performed which may affect counts. Valid values include \"and\" and \"or\"."
+msgstr "Tipo de consulta en marcha que podría afectar al contador. Los valores válidos incluye «and» y «or»."
+
+#: src/StoreApi/Routes/ProductCollectionData.php:158
+msgid "Taxonomy name."
+msgstr "Nombre de la taxonomía."
+
+#: src/BlockTypes/AbstractProductGrid.php:423
+#: build/atomic-block-components/sale-badge-frontend.js:1
+#: build/atomic-block-components/image-frontend.js:1
+#: build/atomic-block-components/sale-badge.js:1 build/all-products.js:1
+#: assets/js/atomic/blocks/product-elements/sale-badge/block.js:52
+msgid "Sale"
+msgstr "Oferta"
+
+#: woocommerce-gutenberg-products-block.php:58
+msgid "WooCommerce Blocks requires a more recent version of WordPress and has been paused. Please update WordPress to continue enjoying WooCommerce Blocks."
+msgstr "WooCommerce Blocks requiere una versión de WordPress más reciente y se ha pausado. Por favor, actualiza WordPress para seguir disfrutando de WooCommerce Blocks."
+
+#: src/StoreApi/Routes/CartAddItem.php:62
+#: src/StoreApi/Schemas/CartItemSchema.php:145
+msgid "Variation attribute value."
+msgstr "Valor del atributo de la variación."
+
+#: src/StoreApi/Routes/CartAddItem.php:57
+#: src/StoreApi/Schemas/CartItemSchema.php:139
+msgid "Variation attribute name."
+msgstr "Nombre del atributo de la variación."
+
+#: src/StoreApi/Routes/CartAddItem.php:50
+#: src/StoreApi/Schemas/CartItemSchema.php:131
+msgid "Chosen attributes (for variations)."
+msgstr "Atributos elegidos (para variaciones)."
+
+#: src/StoreApi/Schemas/CartItemSchema.php:84
+msgid "Stock keeping unit, if applicable."
+msgstr "Unidad de mantener en el inventario, si procede."
+
+#: src/StoreApi/Routes/CartAddItem.php:34
+#: src/StoreApi/Schemas/CartItemSchema.php:48
+msgid "The cart item product or variation ID."
+msgstr "El ID del producto o la variación en el carrito."
+
+#: src/StoreApi/Schemas/CartSchema.php:132
+msgid "Total weight (in grams) of all products in the cart."
+msgstr "Peso total (en gramos) de todos los productos en el carrito."
+
+#: src/StoreApi/Schemas/CartSchema.php:144
+msgid "True if the cart needs shipping. False for carts with only digital goods or stores with no shipping methods set-up."
+msgstr "True si el carrito necesita envío. False para carritos que solo tengan productos digitales o tiendas sin métodos de envío configurados."
+
+#: src/StoreApi/Schemas/CartSchema.php:116
+msgid "List of cart items."
+msgstr "Lista de artículos del carrito."
+
+#: src/StoreApi/Schemas/CartSchema.php:126
+msgid "Number of items in the cart."
+msgstr "Número de artículos en el carrito."
+
+#: src/StoreApi/Schemas/ProductAttributeSchema.php:56
+msgid "If this attribute has term archive pages."
+msgstr "Si este atributo tiene páginas de archivo del término."
+
+#: src/StoreApi/Schemas/ProductAttributeSchema.php:50
+msgid "How terms in this attribute are sorted by default."
+msgstr "Cómo se ordenan por defecto los términos en este atributo."
+
+#: src/StoreApi/Schemas/ProductAttributeSchema.php:44
+msgid "Attribute type."
+msgstr "Tipo del atributo."
+
+#: src/StoreApi/Schemas/TermSchema.php:56
+msgid "Number of objects (posts of any type) assigned to the term."
+msgstr "Número de objetos (contenidos de cualquier tipo) asignados al término."
+
+#: src/StoreApi/Schemas/TermSchema.php:44
+msgid "Term description."
+msgstr "Descripción del término."
+
+#: src/StoreApi/Schemas/TermSchema.php:38
+msgid "String based identifier for the term."
+msgstr "Identificador basado en la cadena del término."
+
+#: src/StoreApi/Schemas/TermSchema.php:32
+msgid "Term name."
+msgstr "Nombre del término."
+
+#: src/StoreApi/Schemas/ProductSchema.php:130
+#: src/StoreApi/Schemas/ProductSchema.php:136
+#: src/StoreApi/Schemas/CartItemSchema.php:186
+#: src/StoreApi/Schemas/CartItemSchema.php:192
+msgid "Price amount."
+msgstr "Monto del precio."
+
+#: src/StoreApi/Schemas/ProductSchema.php:124
+#: src/StoreApi/Schemas/CartItemSchema.php:180
+msgid "Price range, if applicable."
+msgstr "Rango del precio, si aplica."
+
+#: src/StoreApi/Schemas/ProductSchema.php:118
+#: src/StoreApi/Schemas/CartItemSchema.php:174
+#: src/StoreApi/Schemas/CartItemSchema.php:224
+msgid "Sale product price, if applicable."
+msgstr "Precio en oferta de producto, si aplica."
+
+#: src/StoreApi/Schemas/ProductSchema.php:112
+#: src/StoreApi/Schemas/CartItemSchema.php:168
+#: src/StoreApi/Schemas/CartItemSchema.php:218
+msgid "Regular product price."
+msgstr "Precio normal del producto."
+
+#: src/StoreApi/Utilities/CartController.php:831
+msgid "No matching variation found."
+msgstr "No se han encontrado variaciones que coincidan."
+
+#. translators: %s: Attribute name.
+#: src/StoreApi/Utilities/CartController.php:806
+msgid "%s is a required field"
+msgid_plural "%s are required fields"
+msgstr[0] "%s es un campo obligatorio."
+msgstr[1] "%s son campos obligatorios"
+
+#. translators: %s: Attribute name.
+#: src/StoreApi/Utilities/CartController.php:806
+msgid "Missing variation data for variable product."
+msgstr "Datos de la variación no disponibles en el producto variable."
+
+#. translators: %1$s: Attribute name, %2$s: Allowed values.
+#: src/StoreApi/Utilities/CartController.php:791
+msgid "Invalid value posted for %1$s. Allowed values: %2$s"
+msgstr "Valores no válidos publicados para %1$s. Valores permitidos: %2$s"
+
+#: src/StoreApi/Routes/ProductAttributesById.php:59
+msgid "Invalid attribute ID."
+msgstr "ID de atributo no válido."
+
+#: src/StoreApi/Routes/CartAddItem.php:85 src/StoreApi/Routes/CartItems.php:83
+msgid "Cannot create an existing cart item."
+msgstr "No se puede crear un artículo de carrito existente."
+
+#: src/StoreApi/Routes/CartItemsByKey.php:69
+#: src/StoreApi/Routes/CartItemsByKey.php:109
+#: src/StoreApi/Utilities/CartController.php:114
+msgid "Cart item does not exist."
+msgstr "El artículo del carrito no existe."
+
+#: src/StoreApi/Routes/CartItemsByKey.php:30
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:91
+#: src/StoreApi/Schemas/CartItemSchema.php:42
+msgid "Unique identifier for the item within the cart."
+msgstr "Identificador único para el artículo en el carrito."
+
+#: src/StoreApi/Routes/ProductAttributeTerms.php:53
+msgid "Attribute does not exist."
+msgstr "El atributo no existe."
+
+#: src/StoreApi/Routes/ProductAttributeTerms.php:28
+msgid "Unique identifier for the attribute."
+msgstr "Identificador único del atributo."
+
+#: src/StoreApi/Routes/Products.php:373
+msgid "Limit result set to products with a certain average rating."
+msgstr "Limitar el resultado establecido a productos con una cierta valoración media."
+
+#: src/StoreApi/Routes/Products.php:356
+msgid "The logical relationship between attributes when filtering across multiple at once."
+msgstr "La relación lógica entre atributos al filtrar entre varios a la vez."
+
+#: src/StoreApi/Routes/Products.php:338
+msgid "List of attribute slug(s). If a term ID is provided, this will be ignored."
+msgstr "Lista de slug(s) del/los atributo(s). Si se facilita un ID del término esto se ignorará."
+
+#: src/StoreApi/Routes/Products.php:330
+msgid "List of attribute term IDs."
+msgstr "Lista de IDs del término del atributo."
+
+#: src/StoreApi/Routes/Products.php:325
+msgid "Attribute taxonomy name."
+msgstr "Nombre del atributo de la taxonomía."
+
+#: src/StoreApi/Routes/Products.php:319
+msgid "Limit result set to products with selected global attributes."
+msgstr "Limitar el resultado a productos con los atributos globales seleccionados."
+
+#: src/StoreApi/Routes/Products.php:311
+msgid "Limit result set to products with specified stock status."
+msgstr "Limitar el resultado a productos con un estado de inventario específico."
+
+#: src/StoreApi/Routes/Products.php:290
+msgid "Limit result set to products on sale."
+msgstr "Limitar el resultado a productos en oferta."
+
+#: src/StoreApi/Routes/Products.php:274
+msgid "Limit result set to products assigned a specific tag ID."
+msgstr "Limitar resultados a productos asignados al ID de una etiqueta específica."
+
+#: src/StoreApi/Routes/Products.php:258
+msgid "Limit result set to products assigned a specific category ID."
+msgstr "Limitar resultados a productos asignados al ID de una categoría específica."
+
+#: src/StoreApi/Routes/Products.php:251
+msgid "Limit result set to featured products."
+msgstr "Limitar el resultado a productos destacados."
+
+#: src/StoreApi/Routes/Products.php:244
+msgid "Limit result set to products with specific SKU(s). Use commas to separate."
+msgstr "Limita el resultado a productos con SKU(s) específico(s). Utiliza comas para separarlos."
+
+#: src/StoreApi/Routes/Products.php:236
+msgid "Limit result set to products assigned a specific type."
+msgstr "Limitar resultados a productos de un tipo determinado."
+
+#: src/StoreApi/Routes/Products.php:226
+msgid "Limit result set to all items except those of a particular parent ID."
+msgstr "Limita el resultado establecido a todos los artículos excepto a los que tengan un ID superior particular."
+
+#: src/StoreApi/Routes/Products.php:216
+msgid "Limit result set to those of particular parent IDs."
+msgstr "Limita el resultado establecido a los que tengan IDs superiores particulares."
+
+#: src/StoreApi/Routes/Products.php:171
+#: src/StoreApi/Routes/AbstractTermsRoute.php:59
+msgid "Limit result set to specific ids."
+msgstr "Limita el resultado establecido a IDs específicos."
+
+#: src/StoreApi/Routes/Products.php:161
+#: src/StoreApi/Routes/AbstractTermsRoute.php:49
+msgid "Ensure result set excludes specific IDs."
+msgstr "Asegúrate de que el conjunto de resultados excluya IDs específicos."
+
+#: src/StoreApi/Routes/Products.php:148
+msgid "When limiting response using after/before, which date column to compare against."
+msgstr "Al limitar la respuesta usando antes/después, contra qué columnas de fecha comparar."
+
+#: src/StoreApi/Routes/Products.php:141
+msgid "Limit response to resources created before a given ISO8601 compliant date."
+msgstr "Limitar la respuesta a recursos creados antes de una fecha compatible con ISO8601 dada."
+
+#: src/StoreApi/Routes/Products.php:134
+msgid "Limit response to resources created after a given ISO8601 compliant date."
+msgstr "Limitar la respuesta a recursos creados después de una fecha compatible con ISO8601 dada."
+
+#: src/StoreApi/Routes/Products.php:127
+#: src/StoreApi/Routes/AbstractTermsRoute.php:42
+msgid "Limit results to those matching a string."
+msgstr "Limita los resultados a lo indicado en la cadena."
+
+#: src/StoreApi/Routes/Products.php:108
+#: src/StoreApi/Routes/AbstractTermsRoute.php:24
+#: src/StoreApi/Routes/ProductReviews.php:157
+msgid "Current page of the collection."
+msgstr "Página actual de la colección."
+
+#: src/StoreApi/Routes/ProductsById.php:59
+msgid "Invalid product ID."
+msgstr "ID de producto no válido"
+
+#: src/StoreApi/Utilities/CartController.php:383
+msgid "Unable to retrieve cart."
+msgstr "No fue posible recuperar el carrito."
+
+#: src/StoreApi/Routes/ProductCollectionData.php:176
+msgid "If true, calculates rating counts for products in the collection."
+msgstr "Si es true, calcula el contador de valoraciones de los productos de la colección."
+
+#: src/StoreApi/Routes/ProductCollectionData.php:152
+msgid "If requested, calculates attribute term counts for products in the collection."
+msgstr "Si se solicita, calcula la cantidad del término del atributo de los productos de la colección."
+
+#: src/StoreApi/Routes/ProductCollectionData.php:146
+msgid "If true, calculates the minimum and maximum product prices for the collection."
+msgstr "Si es true, calcula los precios mínimo y máximo de los productos de la colección."
+
+#: src/StoreApi/Schemas/ProductCollectionDataSchema.php:80
+#: build/all-products-frontend.js:6 build/all-products.js:1
+#: assets/js/blocks/products/edit.js:51
+#: assets/js/base/components/product-sort-select/index.js:34
+msgid "Average rating"
+msgstr "Valoración promedio"
+
+#: src/StoreApi/Schemas/ProductCollectionDataSchema.php:72
+msgid "Returns number of products with each average rating."
+msgstr "Devuelve el número de productos con cada calificación promedio."
+
+#: src/StoreApi/Schemas/ProductCollectionDataSchema.php:63
+#: src/StoreApi/Schemas/ProductCollectionDataSchema.php:86
+msgid "Number of products."
+msgstr "Número de productos."
+
+#: src/StoreApi/Schemas/ProductCollectionDataSchema.php:57
+msgid "Term ID"
+msgstr "ID de término"
+
+#: src/StoreApi/Schemas/ProductCollectionDataSchema.php:40
+msgid "Max price found in collection of products."
+msgstr "Precio máximo encontrado en la colección de productos."
+
+#: src/StoreApi/Schemas/ProductCollectionDataSchema.php:34
+msgid "Min price found in collection of products."
+msgstr "Precio mínimo encontrado en la colección de productos."
+
+#: src/StoreApi/Schemas/ProductSchema.php:396
+msgid "Button description."
+msgstr "Descripción del botón."
+
+#: src/StoreApi/Schemas/ProductSchema.php:390
+msgid "Button text."
+msgstr "Texto del botón."
+
+#: src/StoreApi/Schemas/ProductSchema.php:384
+msgid "Add to cart button parameters."
+msgstr "Parámetros del botón «Añadir al carrito»"
+
+#: src/StoreApi/Schemas/ProductSchema.php:354
+msgid "Is the product in stock?"
+msgstr "¿Este producto está en el inventario?"
+
+#: src/StoreApi/Schemas/ProductSchema.php:348
+msgid "Is the product purchasable?"
+msgstr "¿Este producto se puede comprar?"
+
+#: src/StoreApi/Schemas/ImageAttachmentSchema.php:47
+msgid "Thumbnail sizes for responsive images."
+msgstr "Tamaños de las miniaturas para las imágenes adaptables."
+
+#: src/StoreApi/Schemas/ImageAttachmentSchema.php:42
+msgid "Thumbnail srcset for responsive images."
+msgstr "«srcset» de las miniaturas para las imágenes adaptables."
+
+#: src/StoreApi/Schemas/ImageAttachmentSchema.php:36
+msgid "Thumbnail URL."
+msgstr "URL de la miniatura."
+
+#: src/StoreApi/Schemas/ImageAttachmentSchema.php:30
+msgid "Full size image URL."
+msgstr "URL de la imagen a tamaño completo."
+
+#: src/StoreApi/Schemas/ProductSchema.php:87
+msgid "Is the product on sale?"
+msgstr "¿Está este producto en oferta?"
+
+#. translators: 1: product name 2: quantity in stock
+#: src/StoreApi/Utilities/CartController.php:172
+msgid "You cannot add that amount of &quot;%1$s&quot; to the cart because there is not enough stock (%2$s remaining)."
+msgstr "No puedes añadir esa cantidad de &quot;%1$s&quot; al carrito porque no hay suficientes existencias (quedan %2$s). "
+
+#. translators: %s: product name
+#: src/StoreApi/Utilities/CartController.php:59
+#: src/StoreApi/Utilities/CartController.php:128
+msgid "You cannot add another \"%s\" to your cart."
+msgstr "No puedes añadir otro «%s» a tu carrito."
+
+#. translators: %s: product name
+#: src/StoreApi/Utilities/CartController.php:156
+msgid "You cannot add &quot;%s&quot; to the cart because the product is out of stock."
+msgstr "No puedes añadir «%s» al carrito porque el producto está agotado."
+
+#: src/StoreApi/Utilities/CartController.php:659
+#: src/StoreApi/Utilities/CartController.php:908
+msgid "This product cannot be added to the cart."
+msgstr "Este producto no se puede añadir al carrito."
+
+#: src/StoreApi/Routes/CartAddItem.php:42
+#: src/StoreApi/Schemas/CartItemSchema.php:54
+msgid "Quantity of this item in the cart."
+msgstr "Cantidad de este artículo en el carrito."
+
+#: src/StoreApi/Routes/ProductReviews.php:212
+msgid "Limit result set to reviews from specific product IDs."
+msgstr "Limita el conjunto de resultados a las valoraciones de IDs de productos específicos."
+
+#: src/StoreApi/Routes/Products.php:196
+#: src/StoreApi/Routes/ProductReviews.php:191
+msgid "Sort collection by object attribute."
+msgstr "Ordenar la colección por el atributo del objeto."
+
+#: src/StoreApi/Routes/Products.php:188
+#: src/StoreApi/Routes/ProductReviews.php:183
+msgid "Order sort attribute ascending or descending."
+msgstr "Orden de la clasificación de atributos ascendente o descendente."
+
+#: src/StoreApi/Routes/Products.php:181
+#: src/StoreApi/Routes/ProductReviews.php:176
+msgid "Offset the result set by a specific number of items."
+msgstr "Anular el resultado establecido por un número específico de elementos."
+
+#: src/StoreApi/Schemas/ProductReviewSchema.php:134
+msgid "Avatar URLs for the object reviewer."
+msgstr "URLs de avatares para quien valora el objeto."
+
+#. translators: %d: avatar image size in pixels
+#: src/StoreApi/Schemas/ProductReviewSchema.php:127
+msgid "Avatar URL with image size of %d pixels."
+msgstr "URL del avatar con un tamaño de imagen de %d píxeles."
+
+#: src/StoreApi/Schemas/ProductReviewSchema.php:113
+msgid "Shows if the reviewer bought the product or not."
+msgstr "Muestra si quien valora ha comprado el producto o no."
+
+#: src/StoreApi/Schemas/ProductReviewSchema.php:107
+msgid "Review rating (0 to 5)."
+msgstr "Puntuación de la valoración (de 0 a 5)."
+
+#: src/StoreApi/Schemas/ProductReviewSchema.php:98
+msgid "The content of the review."
+msgstr "El contenido de la valoración."
+
+#: src/StoreApi/Schemas/ProductReviewSchema.php:92
+msgid "Reviewer name."
+msgstr "Nombre de quien valora."
+
+#: src/StoreApi/Schemas/ProductReviewSchema.php:85
+msgid "Image of the product that the review belongs to."
+msgstr "Imagen del producto al que pertenece la valoración."
+
+#: src/StoreApi/Schemas/ProductReviewSchema.php:79
+msgid "Permalink of the product that the review belongs to."
+msgstr "Enlace permanente del producto al que pertenece la valoración."
+
+#: src/StoreApi/Schemas/ProductReviewSchema.php:73
+msgid "Name of the product that the review belongs to."
+msgstr "Nombre del producto al que pertenece la valoración."
+
+#: src/StoreApi/Schemas/ProductReviewSchema.php:67
+msgid "Unique identifier for the product that the review belongs to."
+msgstr "Identificador único del producto al que pertenece la valoración."
+
+#: src/StoreApi/Schemas/ProductReviewSchema.php:54
+msgid "The date the review was created, in the site's timezone in human-readable format."
+msgstr "La fecha de creación de la valoración, en la zona horaria del sitio en formato legible por los humanos."
+
+#: src/StoreApi/Schemas/ProductCategorySchema.php:54
+msgid "Category URL."
+msgstr "URL de categoría."
+
+#: src/StoreApi/Schemas/ProductSchema.php:65
+msgid "Product variation attributes, if applicable."
+msgstr "Atributos de variaciones de productos, si se aplican."
+
+#: src/StoreApi/Routes/Products.php:365
+msgid "Determines if hidden or visible catalog products are shown."
+msgstr "Determina si se muestran o no los productos del catálogo ocultos o visibles."
+
+#: src/StoreApi/Routes/Products.php:281
+msgid "Operator to compare product tags."
+msgstr "Operador para comparar etiquetas de productos."
+
+#. translators: 1: composer command. 2: plugin directory
+#: woocommerce-gutenberg-products-block.php:122
+#: woocommerce-gutenberg-products-block.php:140
+msgid "Your installation of the WooCommerce Blocks feature plugin is incomplete. Please run %1$s within the %2$s directory."
+msgstr "Tu instalación del plugin WooCommerce Blocks está incompleta. Por favor, ejecuta %1$s dentro del directorio %2$s."
+
+#: src/BlockTypes/ProductCategories.php:214
+msgid "Go to category"
+msgstr "Ir a la categoría"
+
+#: src/BlockTypes/ProductCategories.php:202
+#: src/BlockTypes/ProductCategories.php:206
+msgid "Select a category"
+msgstr "Selecciona una categoría"
+
+#: src/StoreApi/Schemas/ProductAttributeSchema.php:62
+msgid "Number of terms in the attribute taxonomy."
+msgstr "Número de términos en la taxonomía del atributo."
+
+#. Translators: %1$s is the install command, %2$s is the build command, %3$s is
+#. the watch command.
+#: src/Domain/Bootstrap.php:116
+msgid "WooCommerce Blocks development mode requires files to be built. From the plugin directory, run %1$s to install dependencies, %2$s to build the files or %3$s to build the files and watch for changes."
+msgstr "El modo de desarrollo de WooCommerce Blocks necesita que se creen archivos. Desde el directorio de plugins, ejecuta %1$s para instalar dependencias, %2$s para crear los archivos o %3$s para crear los archivos y estar atento a los cambios."
+
+#: src/StoreApi/Routes/Products.php:346
+msgid "Operator to compare product attribute terms."
+msgstr "Operador para comparar los términos de los atributos del producto."
+
+#: src/StoreApi/Routes/Products.php:265
+msgid "Operator to compare product category terms."
+msgstr "Operador para comparar los términos de categorías de producto."
+
+#. Description of the plugin
+msgid "WooCommerce blocks for the Gutenberg editor."
+msgstr "Bloques WooCommerce para el editor Gutenberg."
+
+#. Plugin Name of the plugin
+msgid "WooCommerce Blocks"
+msgstr "WooCommerce Blocks"
+
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:194
+msgid "Meta value."
+msgstr "Valor meta."
+
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:188
+msgid "Meta key."
+msgstr "Clave meta."
+
+#: src/StoreApi/Schemas/ProductAttributeSchema.php:32
+msgid "Attribute name."
+msgstr "Nombre del atributo."
+
+#: src/StoreApi/Schemas/ImageAttachmentSchema.php:57
+msgid "Image alternative text."
+msgstr "Texto alternativo de la imagen."
+
+#: src/StoreApi/Schemas/ImageAttachmentSchema.php:52
+msgid "Image name."
+msgstr "Nombre de la imagen."
+
+#: src/StoreApi/Schemas/ProductReviewSchema.php:60
+msgid "The date the review was created, as GMT."
+msgstr "La fecha de creación de la valoración, como GMT."
+
+#: src/StoreApi/Schemas/ProductReviewSchema.php:47
+msgid "The date the review was created, in the site's timezone."
+msgstr "La fecha de creación de la valoración, en la zona horaria del sitio."
+
+#: src/StoreApi/Schemas/ImageAttachmentSchema.php:25
+msgid "Image ID."
+msgstr "ID de la imagen."
+
+#: src/StoreApi/Schemas/ProductSchema.php:165
+#: src/StoreApi/Schemas/CartItemSchema.php:121
+msgid "List of images."
+msgstr "Lista de imágenes."
+
+#: src/StoreApi/Schemas/ProductSchema.php:227
+msgid "Tag slug"
+msgstr "Slug de la etiqueta"
+
+#: src/StoreApi/Schemas/ProductSchema.php:221
+msgid "Tag name"
+msgstr "Nombre de la etiqueta"
+
+#: src/StoreApi/Schemas/ProductSchema.php:215
+msgid "Tag ID"
+msgstr "ID de la etiqueta"
+
+#: src/StoreApi/Schemas/ProductSchema.php:193
+msgid "Category slug"
+msgstr "Slug de la categoría"
+
+#: src/StoreApi/Schemas/ProductCategorySchema.php:41
+msgid "Category image."
+msgstr "Imagen de la categoría."
+
+#: src/StoreApi/Schemas/ProductSchema.php:181
+msgid "Category ID"
+msgstr "ID de la categoría"
+
+#: src/BlockTypes/ProductCategories.php:193
+msgid "List of categories"
+msgstr "Lista de categorías"
+
+#: src/StoreApi/Schemas/ProductSchema.php:159
+msgid "Amount of reviews that the product has."
+msgstr "La cantidad de valoraciones que tiene el producto."
+
+#: src/StoreApi/Schemas/ProductSchema.php:153
+msgid "Reviews average rating."
+msgstr "Puntuación promedio de las valoraciones."
+
+#: src/StoreApi/Schemas/CartItemSchema.php:102
+msgid "True if the product is on backorder."
+msgstr "«True» si el producto está reservado."
+
+#: src/StoreApi/Schemas/ProductSchema.php:106
+#: src/StoreApi/Schemas/CartItemSchema.php:162
+#: src/StoreApi/Schemas/CartItemSchema.php:212
+msgid "Current product price."
+msgstr "Precio actual del producto."
+
+#: src/StoreApi/Schemas/ProductSchema.php:93
+msgid "Unique identifier."
+msgstr "Identificador único."
+
+#: src/StoreApi/Schemas/ProductSchema.php:59
+msgid "Product type."
+msgstr "Tipo de producto."
+
+#: src/StoreApi/Schemas/ProductSchema.php:70
+#: src/StoreApi/Schemas/CartItemSchema.php:114
+msgid "Product URL."
+msgstr "URL del producto."
+
+#: src/StoreApi/Schemas/ProductSchema.php:48
+#: src/StoreApi/Schemas/CartItemSchema.php:66
+msgid "Product name."
+msgstr "Nombre del producto."
+
+#: src/StoreApi/Routes/ProductCategoriesById.php:28
+#: src/StoreApi/Routes/ProductAttributesById.php:28
+#: src/StoreApi/Routes/ProductsById.php:28
+#: src/StoreApi/Schemas/ProductSchema.php:42
+#: src/StoreApi/Schemas/TermSchema.php:26
+#: src/StoreApi/Schemas/ProductAttributeSchema.php:26
+#: src/StoreApi/Schemas/ProductReviewSchema.php:41
+msgid "Unique identifier for the resource."
+msgstr "Identificador único del recurso."
+
+#. Author URI of the plugin
+msgid "https://woocommerce.com"
+msgstr "https://woocommerce.com"
+
+#. Author of the plugin
+msgid "Automattic"
+msgstr "Automattic"
+
+#. Plugin URI of the plugin
+msgid "https://github.com/woocommerce/woocommerce-gutenberg-products-block"
+msgstr "https://github.com/woocommerce/woocommerce-gutenberg-products-block"

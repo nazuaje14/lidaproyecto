@@ -1,0 +1,1477 @@
+# Translation of Plugins - WooCommerce PDF Invoices, Packing Slips, Delivery Notes &amp; Shipping Labels - Stable (latest release) in Swedish
+# This file is distributed under the same license as the Plugins - WooCommerce PDF Invoices, Packing Slips, Delivery Notes &amp; Shipping Labels - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: +0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Plugins - WooCommerce PDF Invoices, Packing Slips, Delivery Notes &amp; Shipping Labels - Stable (latest release)\n"
+
+#: admin/views/admin-settings-general.php:125
+msgid "RTL support for documents. For better RTL integration in PDF documents please use our %s mPDF addon %s."
+msgstr ""
+
+#: admin/views/admin-settings-debug.php:8
+msgid "Caution: Settings here are only for advanced users."
+msgstr ""
+
+#: admin/views/admin-settings-debug.php:7
+msgid "Debug"
+msgstr ""
+
+#: includes/class-wf-woocommerce-packing-list-review_request.php:59
+msgid "Review now"
+msgstr ""
+
+#: includes/class-wf-woocommerce-packing-list-review_request.php:58
+msgid "Not interested"
+msgstr ""
+
+#: includes/class-wf-woocommerce-packing-list-review_request.php:57
+msgid "Remind me later"
+msgstr ""
+
+#: includes/class-wf-woocommerce-packing-list-review_request.php:54
+msgid "Hey, we at %sWebToffee%s would like to thank you for using %s %s %s. %s Less than a minute of your time will motivate us to keep doing what we do. We would really appreciate if you could take a moment to drop a quick review that motivate us to keep going."
+msgstr ""
+
+#: admin/views/admin-settings-general.php:145
+msgid "The default library to generate PDF"
+msgstr ""
+
+#: admin/views/admin-settings-general.php:142
+msgid "PDF library"
+msgstr ""
+
+#: public/modules/invoice/views/general.php:79
+msgid "Show print button only for statuses"
+msgstr ""
+
+#: public/modules/invoice/views/general.php:71
+msgid "Add print button to the order email/order summary"
+msgstr ""
+
+#: public/modules/invoice/views/general.php:57
+msgid "PDF version of invoice will be attached with the order email based on the above statuses"
+msgstr ""
+
+#: public/modules/invoice/views/general.php:51
+msgid "Attach invoice PDF in order email"
+msgstr ""
+
+#: print-invoices-packing-slip-labels-for-woocommerce.php:68
+msgid "Go to plugins page"
+msgstr ""
+
+#: print-invoices-packing-slip-labels-for-woocommerce.php:68
+msgid "The plugins %s and %s cannot be active in your store at the same time. Kindly deactivate one of these prior to activating the other."
+msgstr ""
+
+#: public/modules/invoice/invoice.php:1112
+msgid "Customizer module is not active."
+msgstr ""
+
+#: public/modules/deliverynote/views/general.php:40
+msgid "Add footer in delivery note"
+msgstr ""
+
+#: public/modules/deliverynote/views/general.php:29
+msgid "Add customer note in delivery note"
+msgstr ""
+
+#: public/modules/deliverynote/views/general.php:6
+msgid "Delivery note"
+msgstr ""
+
+#: public/modules/deliverynote/deliverynote.php:309
+msgid "Unable to print Delivery note. Please check the items in the order."
+msgstr ""
+
+#: public/modules/deliverynote/deliverynote.php:236
+#: public/modules/deliverynote/deliverynote.php:247
+msgid "Print Delivery note"
+msgstr ""
+
+#: public/modules/packinglist/views/general.php:41
+msgid "Add footer in packing list"
+msgstr ""
+
+#: public/modules/packinglist/views/general.php:30
+msgid "Add customer note in packing list"
+msgstr ""
+
+#: public/modules/packinglist/views/general.php:19
+msgid "Add product image in product table"
+msgstr ""
+
+#: public/modules/packinglist/views/general.php:12
+#: public/modules/deliverynote/views/general.php:12
+msgid "Include product image"
+msgstr ""
+
+#: public/modules/packinglist/views/general.php:6
+msgid "Packing slip"
+msgstr ""
+
+#: public/modules/packinglist/packinglist.php:236
+#: public/modules/packinglist/packinglist.php:247
+msgid "Print Packing slip"
+msgstr ""
+
+#: public/modules/packinglist/packinglist.php:57
+#: public/modules/deliverynote/deliverynote.php:61
+msgid "Enable to include product image in the document."
+msgstr ""
+
+#: public/modules/dispatchlabel/views/general.php:30
+msgid "Add footer in dispatch label"
+msgstr ""
+
+#: public/modules/dispatchlabel/views/general.php:19
+msgid "Add customer note in dispatch label"
+msgstr ""
+
+#: public/modules/dispatchlabel/views/general.php:6
+msgid "Dispatch label"
+msgstr ""
+
+#: public/modules/dispatchlabel/dispatchlabel.php:209
+#: public/modules/dispatchlabel/dispatchlabel.php:220
+msgid "Print Dispatch Label"
+msgstr ""
+
+#: public/modules/dispatchlabel/dispatchlabel.php:54
+#: public/modules/packinglist/packinglist.php:58
+#: public/modules/deliverynote/deliverynote.php:62
+msgid "Enable to display the customer's note in the document."
+msgstr ""
+
+#: public/modules/shippinglabel/views/general.php:27
+msgid "Add footer in shipping label"
+msgstr ""
+
+#: public/modules/shippinglabel/views/general.php:20
+#: public/modules/dispatchlabel/views/general.php:23
+#: public/modules/packinglist/views/general.php:34
+#: public/modules/deliverynote/views/general.php:33
+msgid "Add footer"
+msgstr ""
+
+#: public/modules/shippinglabel/views/general.php:15
+msgid "Full Page"
+msgstr ""
+
+#: public/modules/shippinglabel/views/general.php:12
+msgid "Shipping label size"
+msgstr ""
+
+#: public/modules/shippinglabel/views/general.php:6
+msgid "Shipping label"
+msgstr ""
+
+#: public/modules/shippinglabel/shippinglabel.php:291
+#: public/modules/packinglist/packinglist.php:309
+msgid "Unable to print Packing slip. Please check the items in the order."
+msgstr ""
+
+#: public/modules/shippinglabel/shippinglabel.php:224
+msgid "Please add shipping from address in the plugin's general settings."
+msgstr ""
+
+#: public/modules/shippinglabel/shippinglabel.php:161
+#: public/modules/shippinglabel/shippinglabel.php:172
+msgid "Print Shipping Label"
+msgstr ""
+
+#: public/modules/shippinglabel/shippinglabel.php:53
+#: public/modules/dispatchlabel/dispatchlabel.php:55
+#: public/modules/packinglist/packinglist.php:59
+#: public/modules/deliverynote/deliverynote.php:63
+msgid "Enable to display footer content in the document."
+msgstr ""
+
+#: public/modules/shippinglabel/shippinglabel.php:52
+msgid "Prints the shipping label in full page. Provisions to create custom sized labels are allowed in premium versions."
+msgstr ""
+
+#: public/modules/invoice/views/invoice-number.php:152
+msgid "Invoice length"
+msgstr ""
+
+#: public/modules/invoice/views/invoice-number.php:146
+msgid "Suffix"
+msgstr ""
+
+#: public/modules/invoice/views/invoice-number.php:141
+msgid "Prefix"
+msgstr ""
+
+#: public/modules/invoice/views/invoice-number.php:128
+msgid "Reset Invoice no"
+msgstr ""
+
+#: public/modules/invoice/views/invoice-number.php:124
+msgid "Invoice Start Number"
+msgstr ""
+
+#: public/modules/invoice/views/invoice-number.php:105
+msgid "Use order number as invoice number"
+msgstr ""
+
+#: public/modules/invoice/views/invoice-number.php:93
+msgid "Invoice number format"
+msgstr ""
+
+#: public/modules/invoice/views/invoice-number.php:75
+msgid "Use the configurations below to set up a custom invoice number with prefix/suffix/number series or mirror the order number respectively."
+msgstr ""
+
+#: public/modules/invoice/views/invoice-number.php:24
+msgid "Output"
+msgstr ""
+
+#: public/modules/invoice/views/invoice-number.php:17
+msgid "Date formats"
+msgstr ""
+
+#: public/modules/invoice/views/invoice-number.php:5
+msgid "Click to append with existing data"
+msgstr ""
+
+#: public/modules/invoice/views/general.php:103
+msgid "If left blank, defaulted to logo from General settings."
+msgstr ""
+
+#: public/modules/invoice/views/general.php:101
+msgid "Custom logo for invoice"
+msgstr ""
+
+#: public/modules/invoice/views/general.php:97
+msgid "Add customer note in invoice"
+msgstr ""
+
+#: public/modules/dispatchlabel/views/general.php:12
+#: public/modules/packinglist/views/general.php:23
+#: public/modules/deliverynote/views/general.php:22
+#: public/modules/invoice/views/general.php:91
+msgid "Add customer note"
+msgstr ""
+
+#: public/modules/invoice/views/general.php:65
+msgid "Enable print invoice option for customers"
+msgstr ""
+
+#: public/modules/invoice/views/general.php:44
+msgid "Order statuses for which an invoice should be generated."
+msgstr ""
+
+#: public/modules/invoice/views/general.php:42
+msgid "Generate invoice for order statuses"
+msgstr ""
+
+#: public/modules/invoice/views/general.php:34
+msgid "If you choose 'No' then the invoice date will be the date on which it is generated."
+msgstr ""
+
+#: public/modules/invoice/views/general.php:32
+msgid "Use order date as invoice date"
+msgstr ""
+
+#: public/modules/invoice/views/general.php:23
+msgid "Enable invoice"
+msgstr ""
+
+#: public/modules/invoice/views/general.php:7
+msgid "Configure the invoice settings from the options below."
+msgstr ""
+
+#: admin/modules/customizer/data/data.tooltip.php:6
+msgid "Shows a preview of the template on an actual order. Key in an order number to view the same."
+msgstr ""
+
+#: public/modules/invoice/data/data.tooltip.php:15
+msgid "Indicates the total length of the invoice number, excluding the length of prefix and suffix if added. If the length of the generated invoice number is less than the provided, it will be padded with ‘0’. E.g if you specify 7 as invoice length and your invoice number is 8009, it will be represented as 0008009 in the respective documents."
+msgstr ""
+
+#: public/modules/invoice/data/data.tooltip.php:14
+msgid "Specify a suffix that will appear at the trailing edge of the invoice number. Provisions are included to select predefined date formats as suffixes."
+msgstr ""
+
+#: public/modules/invoice/data/data.tooltip.php:13
+msgid "Specify a prefix that will appear at the leading edge of the invoice number. Provisions are included to select predefined date formats as prefixes."
+msgstr ""
+
+#: public/modules/invoice/data/data.tooltip.php:12
+msgid "Set a starting number for the invoice number to have a specific number other than the order number. Reset provisions are also allowed."
+msgstr ""
+
+#: public/modules/invoice/data/data.tooltip.php:11
+msgid "You can mirror the order number as the invoice number by enabling this option, else, you can create an invoice number of your own choice by specifying an invoice start number."
+msgstr ""
+
+#: public/modules/invoice/data/data.tooltip.php:10
+msgid "Select an invoice number format from the drop-down. You can choose to have a prefix, suffix or both for your invoice number."
+msgstr ""
+
+#: public/modules/invoice/data/data.tooltip.php:9
+msgid "Upload to include a unique logo in the invoice other than the one loaded from general settings.  If left blank, then defaulted to the logo from general settings."
+msgstr ""
+
+#: public/modules/invoice/data/data.tooltip.php:8
+msgid "You can add any personalised note/comment in this"
+msgstr ""
+
+#: public/modules/invoice/data/data.tooltip.php:7
+msgid "Enabling this option will allow your customers to print the invoice (via print button) from their order mail as well as after checkout."
+msgstr ""
+
+#: public/modules/invoice/data/data.tooltip.php:6
+msgid "Choose the order statuses for which an email is to be sent to the customer with an invoice attached to it."
+msgstr ""
+
+#: public/modules/invoice/data/data.tooltip.php:5
+msgid "PDF version of the currently active invoice template will be attached with the Woocommerce order emails sent to customers and admins for the chosen order statuses."
+msgstr ""
+
+#: public/modules/invoice/data/data.tooltip.php:4
+msgid "If you choose 'No' then the invoice date will be the date on which it is printed, downloaded or attached in the mail."
+msgstr ""
+
+#: public/modules/invoice/data/data.tooltip.php:3
+msgid "By enabling, you are permitting admin as well as customers to have access to print, download, attach invoice in the mail, etc from wherever applicable. Disabling will remove all the provisions, still, admin can customize the template, set invoice number pattern and so on."
+msgstr ""
+
+#: public/modules/invoice/invoice.php:994
+msgid "<strong>Invoice Number: </strong>"
+msgstr ""
+
+#: public/modules/invoice/invoice.php:974
+msgid "Download Invoice"
+msgstr ""
+
+#: public/modules/invoice/invoice.php:973
+#: public/modules/invoice/invoice.php:1041
+#: public/modules/invoice/invoice.php:1054
+msgid "Print Invoice"
+msgstr ""
+
+#: public/modules/invoice/invoice.php:957
+msgid "Download Invoices"
+msgstr ""
+
+#: public/modules/invoice/invoice.php:956
+msgid "Print Invoices"
+msgstr ""
+
+#: public/modules/invoice/invoice.php:886
+msgid "Coupon info"
+msgstr ""
+
+#: public/modules/invoice/invoice.php:879
+msgid "Product Table"
+msgstr ""
+
+#: public/modules/invoice/invoice.php:878
+msgid "Tracking Number"
+msgstr ""
+
+#: public/modules/invoice/invoice.php:876
+msgid "Tel Field"
+msgstr ""
+
+#: public/modules/invoice/invoice.php:875
+msgid "Email Field"
+msgstr ""
+
+#: public/modules/invoice/invoice.php:874
+msgid "Shipping Address"
+msgstr ""
+
+#: public/modules/invoice/invoice.php:873
+msgid "Billing Address"
+msgstr ""
+
+#: public/modules/invoice/invoice.php:872
+msgid "From Address"
+msgstr ""
+
+#: public/modules/invoice/invoice.php:871
+msgid "Payment received stamp"
+msgstr ""
+
+#: public/modules/invoice/invoice.php:870
+msgid "Order Date"
+msgstr ""
+
+#: public/modules/invoice/invoice.php:869
+msgid "Invoice Date"
+msgstr ""
+
+#: public/modules/invoice/invoice.php:868
+msgid "Order Number"
+msgstr ""
+
+#: public/modules/invoice/invoice.php:867
+#: public/modules/invoice/views/invoice-admin-settings.php:8
+msgid "Invoice Number"
+msgstr ""
+
+#: admin/modules/customizer/customizer.php:223
+#: public/modules/invoice/invoice.php:445
+msgid "Generating"
+msgstr ""
+
+#: admin/modules/customizer/customizer.php:222
+#: public/modules/invoice/invoice.php:444
+msgid "Please enter order number"
+msgstr ""
+
+#: public/modules/invoice/invoice.php:415
+#: public/modules/invoice/invoice.php:820
+msgid "Invoice"
+msgstr ""
+
+#: admin/modules/customizer/customizer.php:75
+msgid "Unable to generate PDF."
+msgstr ""
+
+#: admin/modules/customizer/views/_pdf_preview.php:28
+#: admin/modules/customizer/views/_pdf_preview.php:29
+msgid "Order number"
+msgstr ""
+
+#: admin/modules/customizer/views/_pdf_preview.php:24
+msgid "Order"
+msgstr ""
+
+#: admin/modules/customizer/views/_pdf_preview.php:23
+msgid "Preview sample PDF"
+msgstr ""
+
+#: public/modules/invoice/invoice.php:317
+msgid "Color"
+msgstr ""
+
+#: public/modules/invoice/invoice.php:310
+msgid "Angle"
+msgstr ""
+
+#: public/modules/invoice/invoice.php:302
+msgid "From top"
+msgstr ""
+
+#: public/modules/invoice/invoice.php:294
+msgid "From left"
+msgstr ""
+
+#: public/modules/invoice/invoice.php:286
+msgid "Border radius"
+msgstr ""
+
+#: public/modules/invoice/invoice.php:265
+msgid "Opacity"
+msgstr ""
+
+#: public/modules/invoice/invoice.php:257
+msgid "Line height"
+msgstr ""
+
+#: public/modules/invoice/invoice.php:249
+msgid "Border width"
+msgstr ""
+
+#: public/modules/invoice/invoice.php:225
+msgid "Height"
+msgstr ""
+
+#: public/modules/invoice/invoice.php:217
+msgid "Width"
+msgstr ""
+
+#: public/modules/invoice/invoice.php:198
+msgid "You can control the visibility of the seal according to order status via filters. See filter documentation"
+msgstr ""
+
+#: includes/class-wf-woocommerce-packing-list-box_packing.php:97
+msgid "0"
+msgstr ""
+
+#: admin/views/admin-settings-help.php:112
+msgid "Example Code"
+msgstr ""
+
+#: admin/views/admin-settings-help.php:79
+msgid "Some useful `filters` to extend plugin's functionality"
+msgstr ""
+
+#: admin/views/admin-settings-help.php:68
+msgid "Contact Us"
+msgstr ""
+
+#: admin/views/admin-settings-help.php:66
+msgid "We would love to help you on any queries or issues."
+msgstr ""
+
+#: admin/views/admin-settings-help.php:65
+msgid "Help and Support"
+msgstr ""
+
+#: admin/views/admin-settings-help.php:58
+msgid "Refer to our documentation to set and get started"
+msgstr ""
+
+#: admin/views/admin-settings-help.php:48
+#: admin/views/admin-settings-help.php:77
+msgid "Filters"
+msgstr ""
+
+#: admin/views/admin-settings-help.php:49
+#: admin/views/admin-settings-help.php:53
+msgid "Help Links"
+msgstr ""
+
+#: admin/views/admin-settings-general.php:123
+#: public/modules/shippinglabel/views/general.php:25
+#: public/modules/dispatchlabel/views/general.php:17
+#: public/modules/dispatchlabel/views/general.php:28
+#: public/modules/packinglist/views/general.php:17
+#: public/modules/packinglist/views/general.php:28
+#: public/modules/packinglist/views/general.php:39
+#: public/modules/deliverynote/views/general.php:17
+#: public/modules/deliverynote/views/general.php:27
+#: public/modules/deliverynote/views/general.php:38
+#: public/modules/invoice/views/general.php:27
+#: public/modules/invoice/views/general.php:37
+#: public/modules/invoice/views/general.php:55
+#: public/modules/invoice/views/general.php:69
+#: public/modules/invoice/views/general.php:95
+#: public/modules/invoice/views/invoice-number.php:109
+msgid "No"
+msgstr ""
+
+#: admin/views/admin-settings-general.php:122
+#: public/modules/shippinglabel/views/general.php:24
+#: public/modules/dispatchlabel/views/general.php:16
+#: public/modules/dispatchlabel/views/general.php:27
+#: public/modules/packinglist/views/general.php:16
+#: public/modules/packinglist/views/general.php:27
+#: public/modules/packinglist/views/general.php:38
+#: public/modules/deliverynote/views/general.php:16
+#: public/modules/deliverynote/views/general.php:26
+#: public/modules/deliverynote/views/general.php:37
+#: public/modules/invoice/views/general.php:26
+#: public/modules/invoice/views/general.php:36
+#: public/modules/invoice/views/general.php:54
+#: public/modules/invoice/views/general.php:68
+#: public/modules/invoice/views/general.php:94
+#: public/modules/invoice/views/invoice-number.php:108
+msgid "Yes"
+msgstr ""
+
+#: admin/views/admin-settings-general.php:119
+msgid "Enable RTL support"
+msgstr ""
+
+#: admin/views/admin-settings-general.php:114
+msgid "Disabled"
+msgstr ""
+
+#: admin/views/admin-settings-general.php:113
+msgid "Enabled"
+msgstr ""
+
+#: admin/views/admin-settings-general.php:110
+msgid "Preview before printing"
+msgstr ""
+
+#: admin/views/admin-settings-general.php:103
+msgid "Other settings"
+msgstr ""
+
+#: admin/views/admin-settings-general.php:97
+msgid "VAT"
+msgstr ""
+
+#: admin/views/admin-settings-general.php:93
+msgid "Contact number"
+msgstr ""
+
+#: admin/views/admin-settings-general.php:88
+msgid "Postal code"
+msgstr ""
+
+#: admin/views/admin-settings-general.php:79
+msgid "Choose a country&hellip;"
+msgstr ""
+
+#: admin/views/admin-settings-general.php:77
+msgid "Country/State"
+msgstr ""
+
+#: admin/views/admin-settings-general.php:57
+msgid "City"
+msgstr ""
+
+#: admin/views/admin-settings-general.php:53
+msgid "Address line 2"
+msgstr ""
+
+#: admin/views/admin-settings-general.php:48
+msgid "Address line 1"
+msgstr ""
+
+#: admin/views/admin-settings-general.php:43
+msgid "Department/Business Unit/Sender"
+msgstr ""
+
+#: admin/views/admin-settings-general.php:36
+msgid "Load from WooCommerce"
+msgstr ""
+
+#: admin/views/admin-settings-general.php:32
+msgid "Address(Sender details)"
+msgstr ""
+
+#: admin/views/admin-settings-general.php:25
+msgid "Set up a footer which will be used across the respective documents."
+msgstr ""
+
+#: admin/views/admin-settings-general.php:23
+#: public/modules/invoice/invoice.php:889
+msgid "Footer"
+msgstr ""
+
+#: admin/views/admin-settings-general.php:18
+msgid "Logo"
+msgstr ""
+
+#: admin/views/admin-settings-general.php:13
+msgid "Name"
+msgstr ""
+
+#: admin/views/admin-settings-general.php:8
+msgid "Company Info"
+msgstr ""
+
+#: admin/views/admin-settings-general.php:7
+msgid "The company, shipping address and from address details in the sections below will be used to fill up the invoice and related documents accordingly."
+msgstr ""
+
+#: admin/views/admin-document-settings-page.php:22
+msgid " in order to activate."
+msgstr ""
+
+#: admin/views/admin-document-settings-page.php:22
+msgid "Go to"
+msgstr ""
+
+#: admin/views/admin-document-settings-page.php:21
+msgid "Either of the document types, Packing  slip, Shipping label, Dispatch label or Delivery note should be activated to view relevant settings."
+msgstr ""
+
+#: admin/views/goto-pro.php:90
+msgid "  much appreciated!"
+msgstr ""
+
+#: admin/views/goto-pro.php:90
+msgid " on"
+msgstr ""
+
+#: admin/views/goto-pro.php:90
+msgid "If you find this plugin useful please show your support and rate it"
+msgstr ""
+
+#: admin/views/goto-pro.php:89
+msgid "Like this plugin?"
+msgstr ""
+
+#: admin/views/goto-pro.php:84 admin/views/admin-settings-help.php:57
+#: admin/views/admin-settings-help.php:60
+msgid "Documentation"
+msgstr ""
+
+#: admin/views/goto-pro.php:79
+msgid "Supports checkout, order & product meta fields (SSN, VAT, etc.)."
+msgstr ""
+
+#: admin/views/goto-pro.php:78
+msgid "Option to send invoice to your Customer by e-Mail."
+msgstr ""
+
+#: admin/views/goto-pro.php:77
+msgid "Address labels"
+msgstr ""
+
+#: admin/views/goto-pro.php:76
+msgid "Customize Invoice Number."
+msgstr ""
+
+#: admin/views/goto-pro.php:75
+msgid "Option to Customize Return policy and Footer."
+msgstr ""
+
+#: admin/views/goto-pro.php:74
+msgid "Bulk Printing."
+msgstr ""
+
+#: admin/views/goto-pro.php:73
+msgid "Various Packing Options - Box Packing, Single package per order & Pack items individually."
+msgstr ""
+
+#: admin/views/goto-pro.php:72
+msgid "Easy options to Customise and Personalise the Templates."
+msgstr ""
+
+#: admin/views/goto-pro.php:71
+msgid "A variety of awesome Templates to choose from!"
+msgstr ""
+
+#: admin/views/goto-pro.php:65
+msgid "Upgrade to Premium"
+msgstr ""
+
+#: admin/views/goto-pro.php:62
+msgid "Fast and Superior Support"
+msgstr ""
+
+#: admin/views/goto-pro.php:61
+msgid "30 Day Money Back Guarantee"
+msgstr ""
+
+#: admin/views/goto-pro.php:55
+msgid "Watch getting started video"
+msgstr ""
+
+#: admin/views/admin-settings-documents.php:28
+msgid "Note: Also make sure to fill-up the Company and Address information from the General tab above prior to customization of the respective document types."
+msgstr ""
+
+#: admin/views/admin-settings-documents.php:26
+msgid "The document types(Invoice, Packing  slip, Shipping label, Dispatch label and Delivery note) have been enabled by default for use. Click on the Settings under the document types to configure the respective settings. You can use the toggle button to activate/deactivate the respective document type."
+msgstr ""
+
+#: admin/partials/wf-woocommerce-packing-list-admin-display.php:66
+msgid "Upgrade to Premium for More Features"
+msgstr ""
+
+#: admin/partials/wf-woocommerce-packing-list-admin-display.php:58
+msgid "Help Guide"
+msgstr ""
+
+#: admin/partials/wf-woocommerce-packing-list-admin-display.php:57
+#: public/modules/invoice/views/invoice-admin-settings.php:7
+msgid "General"
+msgstr ""
+
+#: admin/partials/wf-woocommerce-packing-list-admin-display.php:56
+#: admin/views/admin-document-settings-page.php:22
+msgid "Documents"
+msgstr ""
+
+#: admin/partials/wf-woocommerce-packing-list-admin-display.php:23
+msgid "WooCommerce PDF Invoices, Packing Slips, Delivery Notes & Shipping Labels"
+msgstr ""
+
+#: admin/partials/wf-woocommerce-packing-list-admin-document-settings.php:53
+msgid "Other documents"
+msgstr ""
+
+#: admin/partials/wf-woocommerce-packing-list-admin-display.php:42
+#: admin/partials/wf-woocommerce-packing-list-admin-document-settings.php:40
+msgid "for assistance"
+msgstr ""
+
+#: admin/partials/wf-woocommerce-packing-list-admin-display.php:42
+#: admin/partials/wf-woocommerce-packing-list-admin-document-settings.php:40
+msgid "support"
+msgstr ""
+
+#: admin/partials/wf-woocommerce-packing-list-admin-display.php:40
+#: admin/partials/wf-woocommerce-packing-list-admin-document-settings.php:38
+msgid ""
+"We have taken necessary precautions to migrate all your settings and HTML templates to the new version. However any changes applied via code filters cannot be migrated and have to be configured again manually in the new version.\n"
+"\n"
+"                We recommend to try out your updates in a local environment prior to live. Contact"
+msgstr ""
+
+#: admin/partials/wf-woocommerce-packing-list-admin-display.php:38
+#: admin/partials/wf-woocommerce-packing-list-admin-document-settings.php:36
+msgid "Plugin size restricted to 5.1 MB."
+msgstr ""
+
+#: admin/partials/wf-woocommerce-packing-list-admin-display.php:37
+#: admin/partials/wf-woocommerce-packing-list-admin-document-settings.php:35
+msgid "Improved UI/UX."
+msgstr ""
+
+#: admin/partials/wf-woocommerce-packing-list-admin-display.php:36
+#: admin/partials/wf-woocommerce-packing-list-admin-document-settings.php:34
+msgid "Improved WPML compatibility."
+msgstr ""
+
+#: admin/partials/wf-woocommerce-packing-list-admin-display.php:35
+#: admin/partials/wf-woocommerce-packing-list-admin-document-settings.php:33
+msgid "Improved RTL support across documents."
+msgstr ""
+
+#: admin/partials/wf-woocommerce-packing-list-admin-display.php:34
+#: admin/partials/wf-woocommerce-packing-list-admin-document-settings.php:32
+msgid "Document templates structured and optimized to remove unwanted third party dependencies across the documents."
+msgstr ""
+
+#: admin/partials/wf-woocommerce-packing-list-admin-display.php:32
+#: admin/partials/wf-woocommerce-packing-list-admin-document-settings.php:30
+msgid "Heads up! This is a major release with changes detailed below."
+msgstr ""
+
+#: admin/partials/wf-woocommerce-packing-list-admin-document-settings.php:21
+msgid "Document Settings"
+msgstr ""
+
+#: admin/data/data.tooltip.php:9
+msgid "Enable to obtain the document in right to left alignment. (P.S: Use it only for languages with the right to left text direction)"
+msgstr ""
+
+#: admin/data/data.tooltip.php:8
+msgid "Enable to obtain a preview of the document whenever a user initiates a print."
+msgstr ""
+
+#: admin/data/data.tooltip.php:7
+msgid "Click here to load the default WooCommerce store address details into the respective fields."
+msgstr ""
+
+#: admin/data/data.tooltip.php:6
+msgid "The 'From Address' to be displayed in the shipping documents will be loaded from details specified in these fields."
+msgstr ""
+
+#: admin/data/data.tooltip.php:5
+msgid "Additional details like the terms and conditions, any specific messages that have to be displayed at the bottom of the document can be specified in the expandable text area provided."
+msgstr ""
+
+#: admin/data/data.tooltip.php:4
+msgid "Upload a company logo (preferably of size 150x50px for better usability) from the media library which will be displayed in your document."
+msgstr ""
+
+#: admin/data/data.tooltip.php:3
+msgid "Specify your company name in the field provided. You can choose to display the name or logo in the invoice from the customize tab."
+msgstr ""
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:1018
+msgid "Upload"
+msgstr ""
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:983
+msgid "Choose Order Status"
+msgstr ""
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:1172
+#: admin/class-wf-woocommerce-packing-list-admin.php:1234
+msgid "Settings Updated"
+msgstr ""
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:495
+msgid "Access denied !!!."
+msgstr ""
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:494
+msgid "You are not allowed to view this page."
+msgstr ""
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:430
+#: admin/class-wf-woocommerce-packing-list-admin.php:431
+msgid "Document settings"
+msgstr ""
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:420
+msgid "Invoice/Packing"
+msgstr ""
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:419
+#: admin/class-wf-woocommerce-packing-list-admin.php:441
+#: admin/views/admin-document-settings-page.php:22
+msgid "General Settings"
+msgstr ""
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:382
+msgid "Review"
+msgstr ""
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:381
+msgid "Support"
+msgstr ""
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:380
+msgid "Upgrade to premium"
+msgstr ""
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:379
+#: admin/partials/wf-woocommerce-packing-list-admin-display.php:22
+#: admin/views/admin-settings-documents.php:78
+msgid "Settings"
+msgstr ""
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:369
+msgid "Print Actions"
+msgstr ""
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:208
+msgctxt "placeholder"
+msgid "Enter "
+msgstr ""
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:115
+msgid "Please wait"
+msgstr ""
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:113
+msgid "One or more order do not have invoice generated. Generate manually?"
+msgstr ""
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:112
+msgid "You have to select order(s) first!"
+msgstr ""
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:111
+msgid "Unable to update Settings."
+msgstr ""
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:110
+msgid "All fields are mandatory"
+msgstr ""
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:109
+msgid "Settings updated."
+msgstr ""
+
+#: admin/modules/customizer/views/customize.php:228
+#: public/modules/invoice/invoice.php:862
+msgid "Pro version"
+msgstr ""
+
+#: admin/modules/customizer/views/customize.php:216
+#: admin/modules/customizer/views/customize.php:228
+msgid "Code"
+msgstr ""
+
+#: admin/modules/customizer/views/customize.php:215
+#: admin/modules/customizer/views/customize.php:227
+msgid "Visual"
+msgstr ""
+
+#: admin/modules/customizer/views/customize.php:204
+msgid "My templates"
+msgstr ""
+
+#: admin/modules/customizer/views/customize.php:203
+msgid "Create new"
+msgstr ""
+
+#: admin/modules/customizer/views/customize.php:202
+msgid "Delete"
+msgstr ""
+
+#: admin/modules/customizer/views/customize.php:166
+msgid "Use"
+msgstr ""
+
+#: admin/modules/customizer/views/customize.php:141
+msgid "Saving..."
+msgstr ""
+
+#: admin/modules/customizer/views/customize.php:140
+msgid "Save before you proceed."
+msgstr ""
+
+#: admin/modules/customizer/views/customize.php:138
+msgid "All unsaved changes will be lost upon switching to a new layout."
+msgstr ""
+
+#: admin/modules/customizer/views/customize.php:132
+msgid "Choose a layout."
+msgstr ""
+
+#: admin/modules/customizer/views/customize.php:124
+#: admin/modules/customizer/views/customize.php:142
+#: admin/modules/customizer/views/customize.php:188
+msgid "Save"
+msgstr ""
+
+#: admin/modules/customizer/views/customize.php:114
+msgid "Please enter name"
+msgstr ""
+
+#: admin/modules/customizer/views/customize.php:109
+msgid "Enter a name for your template"
+msgstr ""
+
+#: admin/modules/customizer/views/customize.php:99
+msgid "Type template name to search"
+msgstr ""
+
+#: admin/modules/customizer/views/customize.php:94
+msgid "Templates"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:592
+#: public/modules/invoice/invoice.php:888
+msgid "Total"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:586
+#: public/modules/invoice/invoice.php:887
+msgid "Payment Method"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:579
+#: public/modules/invoice/invoice.php:885
+msgid "Fee"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:573
+#: public/modules/invoice/invoice.php:884
+msgid "Total Tax"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:566
+#: public/modules/invoice/invoice.php:883
+msgid "Order Discount"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:560
+#: public/modules/invoice/invoice.php:882
+msgid "Cart Discount"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:553
+#: public/modules/invoice/invoice.php:881
+msgid "Shipping"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:547
+#: public/modules/invoice/invoice.php:880
+msgid "Sub Total"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:536
+msgid "Label"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:519
+msgid "Align"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:502
+msgid "Image Signature"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:501
+msgid "Manual Signature"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:497
+msgid "Signature type"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:483
+msgid "Total text align"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:477
+msgid "Total label"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:460
+msgid "Total weight text align"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:454
+msgid "Total weight label"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:437
+msgid "Price text align"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:431
+msgid "Price label"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:414
+msgid "Qty text align"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:408
+msgid "Qty label"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:391
+msgid "Product text align"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:385
+msgid "Product label"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:368
+msgid "SKU text align"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:362
+msgid "SKU label"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:348
+msgid "Table body text color"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:341
+msgid "Table head text color"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:334
+msgid "Table head background"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:281
+msgid "Text align"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:276
+#: admin/modules/customizer/views/_customize_properties.php:300
+#: admin/modules/customizer/views/_customize_properties.php:506
+msgid "Title"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:229
+#: public/modules/invoice/views/invoice-number.php:24
+msgid "Format"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:213
+#: admin/modules/customizer/views/_customize_properties.php:265
+#: admin/modules/customizer/views/_customize_properties.php:289
+#: admin/modules/customizer/views/_customize_properties.php:323
+msgid "Text color"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:203
+#: admin/modules/customizer/views/_customize_properties.php:255
+msgid "Style"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:195
+#: admin/modules/customizer/views/_customize_properties.php:247
+#: admin/modules/customizer/views/_customize_properties.php:305
+#: admin/modules/customizer/views/_customize_properties.php:511
+#: public/modules/invoice/invoice.php:240
+msgid "Font size"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:190
+#: admin/modules/customizer/views/_customize_properties.php:224
+#: public/modules/invoice/invoice.php:234
+msgid "Text"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:177
+msgid "Header Color"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:171
+msgid "Extra detail font size"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:165
+msgid "Extra Details"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:159
+msgid "Company name font size"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:151
+msgid "Logo Height"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:144
+msgid "Logo Width"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:140
+msgid "Company Name"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:139
+#: public/modules/invoice/invoice.php:865
+msgid "Company Logo"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:135
+msgid "Display"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:128
+msgid "End"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:127
+msgid "Start"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:126
+msgid "Center"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:125
+msgid "Right"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:124
+msgid "Left"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:114
+msgid "Select One"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:106
+msgid "Bolder"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:105
+msgid "Bold"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:104
+msgid "Normal"
+msgstr ""
+
+#: admin/modules/customizer/views/_customize_properties.php:103
+msgid "Lighter"
+msgstr ""
+
+#: admin/modules/customizer/customizer.php:974
+msgid "Untitled template"
+msgstr ""
+
+#: admin/modules/customizer/customizer.php:951
+msgid "Unable to load template."
+msgstr ""
+
+#: admin/modules/customizer/customizer.php:671
+msgid "Unable to switch view."
+msgstr ""
+
+#: admin/modules/customizer/customizer.php:650
+msgid "Template updated."
+msgstr ""
+
+#: admin/modules/customizer/customizer.php:615
+msgid "Template created."
+msgstr ""
+
+#: admin/modules/customizer/customizer.php:574
+msgid "Unable to save theme."
+msgstr ""
+
+#: admin/modules/customizer/customizer.php:557
+msgid "No template found."
+msgstr ""
+
+#: admin/modules/customizer/customizer.php:530
+#: admin/modules/customizer/views/customize.php:201
+msgid "Activate"
+msgstr ""
+
+#: admin/modules/customizer/customizer.php:499
+msgid "Error."
+msgstr ""
+
+#: admin/modules/customizer/customizer.php:263
+#: admin/modules/customizer/customizer.php:527
+msgid "Active"
+msgstr ""
+
+#: admin/modules/customizer/customizer.php:221
+msgid "Saving"
+msgstr ""
+
+#: admin/modules/customizer/customizer.php:220
+msgid "Change layout"
+msgstr ""
+
+#: admin/modules/customizer/customizer.php:219
+#: admin/modules/customizer/views/customize.php:184
+msgid "Create new template"
+msgstr ""
+
+#: admin/modules/customizer/customizer.php:218
+msgid "Please save all data before leaving this page. All unsaved data will be lost. Are you sure?"
+msgstr ""
+
+#: admin/modules/customizer/customizer.php:217
+msgid "Click here to add Signature"
+msgstr ""
+
+#: admin/modules/customizer/customizer.php:216
+msgid "Click here to add From address"
+msgstr ""
+
+#: admin/modules/customizer/customizer.php:215
+msgid "Click here to add Company name"
+msgstr ""
+
+#: admin/modules/customizer/customizer.php:214
+msgid "Click here to add Company logo"
+msgstr ""
+
+#: admin/modules/customizer/customizer.php:213
+msgid "You can't undo this action. Are you sure?"
+msgstr ""
+
+#: admin/modules/customizer/customizer.php:212
+msgid "Success"
+msgstr ""
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:114
+#: admin/class-wf-woocommerce-packing-list-admin.php:1166
+#: admin/class-wf-woocommerce-packing-list-admin.php:1186
+#: admin/modules/customizer/customizer.php:48
+#: admin/modules/customizer/customizer.php:211
+#: public/modules/invoice/invoice.php:446
+msgid "Error"
+msgstr ""
+
+#: admin/modules/customizer/customizer.php:157
+#: admin/modules/customizer/customizer.php:162
+msgid "Customize"
+msgstr ""
+
+#: admin/modules/customizer/classes/class-customizer.php:567
+#: admin/modules/customizer/classes/class-customizer.php:970
+#: includes/class-wf-woocommerce-packing-list-box_packing.php:101
+#: includes/class-wf-woocommerce-packing-list-box_packing.php:108
+msgid "n/a"
+msgstr ""
+
+#: admin/modules/customizer/classes/class-customizer.php:343
+msgid "Refund"
+msgstr ""
+
+#: admin/modules/customizer/classes/class-customizer.php:327
+msgid "incl. tax"
+msgstr ""
+
+#: admin/modules/customizer/classes/class-customizer.php:86
+msgid "Box name"
+msgstr ""
+
+#: admin/modules/customizer/data/data.tooltip.php:5
+msgid "Displays the currently chosen document template with provisions to modify."
+msgstr ""
+
+#: admin/modules/customizer/data/data.tooltip.php:4
+msgid "Create a new template or edit an existing template."
+msgstr ""
+
+#: admin/modules/customizer/data/data.tooltip.php:3
+msgid "Click to view predefined templates."
+msgstr ""
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:110
+#: admin/modules/customizer/views/customize.php:121
+#: admin/modules/customizer/views/customize.php:192
+msgid "Cancel"
+msgstr ""
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:109
+msgid "Submit & Deactivate"
+msgstr ""
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:108
+msgid "Go to support"
+msgstr ""
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:105
+msgid "I rather wouldn't say"
+msgstr ""
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:95
+msgid "If you have a moment, please let us know why you are deactivating:"
+msgstr ""
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:76
+msgid "Could you tell us a bit more?"
+msgstr ""
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:74
+msgid "Other"
+msgstr ""
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:70
+msgid "What did you expect?"
+msgstr ""
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:68
+msgid "The plugin didn't work as expected"
+msgstr ""
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:62
+msgid "It's not what I was looking for"
+msgstr ""
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:58
+msgid "Could you tell us a bit more whats not working?"
+msgstr ""
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:56
+msgid "The plugin is not working"
+msgstr ""
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:52
+msgid "Could you tell us more about that feature?"
+msgstr ""
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:50
+msgid "The plugin is great, but I need specific feature that you don't support"
+msgstr ""
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:46
+msgid "Which plugin?"
+msgstr ""
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:44
+msgid "I found a better plugin"
+msgstr ""
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:40
+msgid "Would you like us to assist you?"
+msgstr ""
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:38
+msgid "I couldn't understand how to make it work"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.webtoffee.com/"
+msgstr ""
+
+#. Author of the plugin
+msgid "WebToffee"
+msgstr ""
+
+#. Description of the plugin
+msgid "Prints Packing List,Invoice,Delivery Note & Shipping Label."
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://www.webtoffee.com/product/woocommerce-pdf-invoices-packing-slips/"
+msgstr ""
+
+#. Plugin Name of the plugin
+msgid "WooCommerce PDF Invoices, Packing Slips, Delivery Notes & Shipping Labels (Basic)"
+msgstr ""

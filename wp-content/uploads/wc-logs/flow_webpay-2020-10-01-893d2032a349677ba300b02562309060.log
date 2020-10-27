@@ -1,0 +1,92 @@
+2020-10-01T02:01:16+00:00 INFO Entering process_payment
+2020-10-01T02:01:16+00:00 INFO Calling Flow service: payment/create with params: {"commerceOrder":13846,"subject":"Orden: 13846 - Lida Linea Completa Chile","amount":53000,"email":"valeria.andrea8814@gmail.com","urlConfirmation":"https:\/\/www.lidalineacompletachile.cl\/?wc-api=confirm_flow_webpay","urlReturn":"https:\/\/www.lidalineacompletachile.cl\/?wc-api=return_flow_webpay","paymentMethod":1}
+2020-10-01T02:01:17+00:00 INFO Flow response: {"token":"94F65F50AC55F01F1A85555F8DA8DF6170C4D7FW","url":"https:\/\/www.flow.cl\/app\/web\/pay.php","flowOrder":23567484}
+2020-10-01T02:03:21+00:00 INFO Entering the confirm callback
+2020-10-01T02:03:21+00:00 INFO Calling the flow service: payment/getStatus
+2020-10-01T02:03:21+00:00 INFO With params: {"token":"94F65F50AC55F01F1A85555F8DA8DF6170C4D7FW"}
+2020-10-01T02:03:23+00:00 INFO Flow response: {"flowOrder":23567484,"commerceOrder":"13846","requestDate":"2020-09-30 23:01:17","status":2,"subject":"Orden: 13846 - Lida Linea Completa Chile","currency":"CLP","amount":"53000","payer":"valeria.andrea8814@gmail.com","optional":null,"pending_info":{"media":null,"date":null},"paymentData":{"date":"2020-09-30 23:03:17","media":"Webpay","conversionDate":null,"conversionRate":null,"amount":"53000.00","currency":"CLP","fee":"1691.00","taxes":321,"balance":50988,"transferDate":"2020-10-01 00:00:00"},"merchantId":null}
+2020-10-01T02:03:23+00:00 INFO Paying order #13846
+2020-10-01T02:03:36+00:00 INFO Entering callback_return
+2020-10-01T02:03:36+00:00 INFO Calling the flow service: payment/getStatus
+2020-10-01T02:03:36+00:00 INFO With params: {"token":"94F65F50AC55F01F1A85555F8DA8DF6170C4D7FW"}
+2020-10-01T02:03:38+00:00 INFO Flow result: {"flowOrder":23567484,"commerceOrder":"13846","requestDate":"2020-09-30 23:01:17","status":2,"subject":"Orden: 13846 - Lida Linea Completa Chile","currency":"CLP","amount":"53000","payer":"valeria.andrea8814@gmail.com","optional":null,"pending_info":{"media":null,"date":null},"paymentData":{"date":"2020-09-30 23:03:17","media":"Webpay","conversionDate":null,"conversionRate":null,"amount":"53000.00","currency":"CLP","fee":"1691.00","taxes":321,"balance":50988,"transferDate":"2020-10-01 00:00:00"},"merchantId":null}
+2020-10-01T02:03:38+00:00 INFO Redirecting to the success page...
+2020-10-01T03:55:39+00:00 INFO Entering process_payment
+2020-10-01T03:55:39+00:00 INFO Calling Flow service: payment/create with params: {"commerceOrder":13847,"subject":"Orden: 13847 - Lida Linea Completa Chile","amount":28000,"email":"alefariassolis@gmail.com","urlConfirmation":"https:\/\/www.lidalineacompletachile.cl\/?wc-api=confirm_flow_webpay","urlReturn":"https:\/\/www.lidalineacompletachile.cl\/?wc-api=return_flow_webpay","paymentMethod":1}
+2020-10-01T03:55:41+00:00 INFO Flow response: {"token":"BA39E322539EFECFDEA2ACB502EBE731093FE2BL","url":"https:\/\/www.flow.cl\/app\/web\/pay.php","flowOrder":23575588}
+2020-10-01T03:58:03+00:00 INFO Entering callback_return
+2020-10-01T03:58:03+00:00 INFO Calling the flow service: payment/getStatus
+2020-10-01T03:58:03+00:00 INFO With params: {"token":"BA39E322539EFECFDEA2ACB502EBE731093FE2BL"}
+2020-10-01T03:58:05+00:00 INFO Flow result: {"flowOrder":23575588,"commerceOrder":"13847","requestDate":"2020-10-01 00:55:41","status":1,"subject":"Orden: 13847 - Lida Linea Completa Chile","currency":"CLP","amount":"28000","payer":"alefariassolis@gmail.com","optional":null,"pending_info":{"media":null,"date":null},"paymentData":{"date":null,"media":null,"conversionDate":null,"conversionRate":null,"amount":null,"fee":null,"balance":null,"transferDate":null},"merchantId":null}
+2020-10-01T03:58:05+00:00 INFO User canceled the payment. Redirecting to checkout...
+2020-10-01T03:58:18+00:00 INFO Entering process_payment
+2020-10-01T03:58:18+00:00 INFO Calling Flow service: payment/create with params: {"commerceOrder":13847,"subject":"Orden: 13847 - Lida Linea Completa Chile","amount":28000,"email":"alefariassolis@gmail.com","urlConfirmation":"https:\/\/www.lidalineacompletachile.cl\/?wc-api=confirm_flow_webpay","urlReturn":"https:\/\/www.lidalineacompletachile.cl\/?wc-api=return_flow_webpay","paymentMethod":1}
+2020-10-01T03:58:19+00:00 INFO Flow response: {"token":"CA42F52AE6EC7B21147F2AA72733E7A4D4C074ED","url":"https:\/\/www.flow.cl\/app\/web\/pay.php","flowOrder":23575682}
+2020-10-01T03:59:42+00:00 INFO Entering the confirm callback
+2020-10-01T03:59:42+00:00 INFO Calling the flow service: payment/getStatus
+2020-10-01T03:59:42+00:00 INFO With params: {"token":"CA42F52AE6EC7B21147F2AA72733E7A4D4C074ED"}
+2020-10-01T03:59:44+00:00 INFO Flow response: {"flowOrder":23575682,"commerceOrder":"13847","requestDate":"2020-10-01 00:58:19","status":2,"subject":"Orden: 13847 - Lida Linea Completa Chile","currency":"CLP","amount":"28000","payer":"alefariassolis@gmail.com","optional":null,"pending_info":{"media":null,"date":null},"paymentData":{"date":"2020-10-01 00:59:38","media":"Webpay","conversionDate":null,"conversionRate":null,"amount":"28000.00","currency":"CLP","fee":"893.00","taxes":170,"balance":26937,"transferDate":"2020-10-02 00:00:00"},"merchantId":null}
+2020-10-01T03:59:44+00:00 INFO Paying order #13847
+2020-10-01T15:18:11+00:00 INFO Entering process_payment
+2020-10-01T15:18:11+00:00 INFO Calling Flow service: payment/create with params: {"commerceOrder":13848,"subject":"Orden: 13848 - Lida Linea Completa Chile","amount":53000,"email":"la.vaaneh@hotmail.com","urlConfirmation":"https:\/\/www.lidalineacompletachile.cl\/?wc-api=confirm_flow_webpay","urlReturn":"https:\/\/www.lidalineacompletachile.cl\/?wc-api=return_flow_webpay","paymentMethod":1}
+2020-10-01T15:18:14+00:00 INFO Flow response: {"token":"866888E7F2B4BFFF1C2606B57B71D8F7313A829M","url":"https:\/\/www.flow.cl\/app\/web\/pay.php","flowOrder":23587920}
+2020-10-01T15:21:00+00:00 INFO Entering process_payment
+2020-10-01T15:21:00+00:00 INFO Calling Flow service: payment/create with params: {"commerceOrder":13849,"subject":"Orden: 13849 - Lida Linea Completa Chile","amount":27850,"email":"mezac95@gmail.com","urlConfirmation":"https:\/\/www.lidalineacompletachile.cl\/?wc-api=confirm_flow_webpay","urlReturn":"https:\/\/www.lidalineacompletachile.cl\/?wc-api=return_flow_webpay","paymentMethod":1}
+2020-10-01T15:21:03+00:00 INFO Flow response: {"token":"14530C340F2A486E0F5CE7A24DF00218EF959EAI","url":"https:\/\/www.flow.cl\/app\/web\/pay.php","flowOrder":23588059}
+2020-10-01T16:32:11+00:00 INFO Entering process_payment
+2020-10-01T16:32:11+00:00 INFO Calling Flow service: payment/create with params: {"commerceOrder":13850,"subject":"Orden: 13850 - Lida Linea Completa Chile","amount":28000,"email":"connymunoz2017@gmail.com","urlConfirmation":"https:\/\/www.lidalineacompletachile.cl\/?wc-api=confirm_flow_webpay","urlReturn":"https:\/\/www.lidalineacompletachile.cl\/?wc-api=return_flow_webpay","paymentMethod":1}
+2020-10-01T16:32:13+00:00 INFO Flow response: {"token":"FFD78FFA89ED209137EFDF926BAC9D1D9C250DCF","url":"https:\/\/www.flow.cl\/app\/web\/pay.php","flowOrder":23591485}
+2020-10-01T17:47:49+00:00 INFO Entering process_payment
+2020-10-01T17:47:49+00:00 INFO Calling Flow service: payment/create with params: {"commerceOrder":13851,"subject":"Orden: 13851 - Lida Linea Completa Chile","amount":27850,"email":"mezac95@gmail.com","urlConfirmation":"https:\/\/www.lidalineacompletachile.cl\/?wc-api=confirm_flow_webpay","urlReturn":"https:\/\/www.lidalineacompletachile.cl\/?wc-api=return_flow_webpay","paymentMethod":1}
+2020-10-01T17:47:50+00:00 INFO Flow response: {"token":"ACB86A0FFB16A612C70340B38EB3E2BE89AADA9G","url":"https:\/\/www.flow.cl\/app\/web\/pay.php","flowOrder":23595626}
+2020-10-01T18:17:38+00:00 INFO Entering process_payment
+2020-10-01T18:17:38+00:00 INFO Calling Flow service: payment/create with params: {"commerceOrder":13851,"subject":"Orden: 13851 - Lida Linea Completa Chile","amount":27850,"email":"mezac95@gmail.com","urlConfirmation":"https:\/\/www.lidalineacompletachile.cl\/?wc-api=confirm_flow_webpay","urlReturn":"https:\/\/www.lidalineacompletachile.cl\/?wc-api=return_flow_webpay","paymentMethod":1}
+2020-10-01T18:17:40+00:00 INFO Flow response: {"token":"CF76B1EA3D0788ADF3FBE7F801AC22EDC9943A7V","url":"https:\/\/www.flow.cl\/app\/web\/pay.php","flowOrder":23597850}
+2020-10-01T18:23:18+00:00 INFO Entering process_payment
+2020-10-01T18:23:18+00:00 INFO Calling Flow service: payment/create with params: {"commerceOrder":13852,"subject":"Orden: 13852 - Lida Linea Completa Chile","amount":27850,"email":"mezac95@gmaii.com","urlConfirmation":"https:\/\/www.lidalineacompletachile.cl\/?wc-api=confirm_flow_webpay","urlReturn":"https:\/\/www.lidalineacompletachile.cl\/?wc-api=return_flow_webpay","paymentMethod":1}
+2020-10-01T18:23:21+00:00 INFO Flow response: {"token":"C0E0D8F786758F6F5DFC94F6338C61BC0A76E11M","url":"https:\/\/www.flow.cl\/app\/web\/pay.php","flowOrder":23598279}
+2020-10-01T18:26:47+00:00 INFO Entering process_payment
+2020-10-01T18:26:47+00:00 INFO Calling Flow service: payment/create with params: {"commerceOrder":13852,"subject":"Orden: 13852 - Lida Linea Completa Chile","amount":27850,"email":"mezac95@gmaii.com","urlConfirmation":"https:\/\/www.lidalineacompletachile.cl\/?wc-api=confirm_flow_webpay","urlReturn":"https:\/\/www.lidalineacompletachile.cl\/?wc-api=return_flow_webpay","paymentMethod":1}
+2020-10-01T18:26:50+00:00 INFO Flow response: {"token":"3729C5EE3113F29EFC68B15FA2201DCCD297E54L","url":"https:\/\/www.flow.cl\/app\/web\/pay.php","flowOrder":23598570}
+2020-10-01T18:28:53+00:00 INFO Entering the confirm callback
+2020-10-01T18:28:53+00:00 INFO Calling the flow service: payment/getStatus
+2020-10-01T18:28:53+00:00 INFO With params: {"token":"3729C5EE3113F29EFC68B15FA2201DCCD297E54L"}
+2020-10-01T18:28:55+00:00 INFO Flow response: {"flowOrder":23598570,"commerceOrder":"13852","requestDate":"2020-10-01 15:26:49","status":2,"subject":"Orden: 13852 - Lida Linea Completa Chile","currency":"CLP","amount":"27850","payer":"mezac95@gmaii.com","optional":null,"pending_info":{"media":null,"date":null},"paymentData":{"date":"2020-10-01 15:28:49","media":"Webpay","conversionDate":null,"conversionRate":null,"amount":"27850.00","currency":"CLP","fee":"888.00","taxes":169,"balance":26793,"transferDate":"2020-10-02 00:00:00"},"merchantId":null}
+2020-10-01T18:28:55+00:00 INFO Paying order #13852
+2020-10-01T18:29:10+00:00 INFO Entering callback_return
+2020-10-01T18:29:10+00:00 INFO Calling the flow service: payment/getStatus
+2020-10-01T18:29:10+00:00 INFO With params: {"token":"3729C5EE3113F29EFC68B15FA2201DCCD297E54L"}
+2020-10-01T18:29:12+00:00 INFO Flow result: {"flowOrder":23598570,"commerceOrder":"13852","requestDate":"2020-10-01 15:26:49","status":2,"subject":"Orden: 13852 - Lida Linea Completa Chile","currency":"CLP","amount":"27850","payer":"mezac95@gmaii.com","optional":null,"pending_info":{"media":null,"date":null},"paymentData":{"date":"2020-10-01 15:28:49","media":"Webpay","conversionDate":null,"conversionRate":null,"amount":"27850.00","currency":"CLP","fee":"888.00","taxes":169,"balance":26793,"transferDate":"2020-10-02 00:00:00"},"merchantId":null}
+2020-10-01T18:29:12+00:00 INFO Redirecting to the success page...
+2020-10-01T18:38:24+00:00 INFO Entering process_payment
+2020-10-01T18:38:24+00:00 INFO Calling Flow service: payment/create with params: {"commerceOrder":13853,"subject":"Orden: 13853 - Lida Linea Completa Chile","amount":27850,"email":"contreras.gomez.8714@gmail.com","urlConfirmation":"https:\/\/www.lidalineacompletachile.cl\/?wc-api=confirm_flow_webpay","urlReturn":"https:\/\/www.lidalineacompletachile.cl\/?wc-api=return_flow_webpay","paymentMethod":1}
+2020-10-01T18:38:26+00:00 INFO Flow response: {"token":"CFC62DAB33A1F8413BA7ED223BB5E4464E9194DL","url":"https:\/\/www.flow.cl\/app\/web\/pay.php","flowOrder":23599433}
+2020-10-01T18:43:43+00:00 INFO Entering process_payment
+2020-10-01T18:43:43+00:00 INFO Calling Flow service: payment/create with params: {"commerceOrder":13853,"subject":"Orden: 13853 - Lida Linea Completa Chile","amount":27850,"email":"contreras.gomez.8714@gmail.com","urlConfirmation":"https:\/\/www.lidalineacompletachile.cl\/?wc-api=confirm_flow_webpay","urlReturn":"https:\/\/www.lidalineacompletachile.cl\/?wc-api=return_flow_webpay","paymentMethod":1}
+2020-10-01T18:43:45+00:00 INFO Flow response: {"token":"B9B3D5FA7704F52478579CBBD77C9C27F15FEA1F","url":"https:\/\/www.flow.cl\/app\/web\/pay.php","flowOrder":23599847}
+2020-10-01T18:46:18+00:00 INFO Entering the confirm callback
+2020-10-01T18:46:18+00:00 INFO Calling the flow service: payment/getStatus
+2020-10-01T18:46:18+00:00 INFO With params: {"token":"B9B3D5FA7704F52478579CBBD77C9C27F15FEA1F"}
+2020-10-01T18:46:20+00:00 INFO Flow response: {"flowOrder":23599847,"commerceOrder":"13853","requestDate":"2020-10-01 15:43:45","status":2,"subject":"Orden: 13853 - Lida Linea Completa Chile","currency":"CLP","amount":"27850","payer":"contreras.gomez.8714@gmail.com","optional":null,"pending_info":{"media":null,"date":null},"paymentData":{"date":"2020-10-01 15:46:14","media":"Webpay","conversionDate":null,"conversionRate":null,"amount":"27850.00","currency":"CLP","fee":"888.00","taxes":169,"balance":26793,"transferDate":"2020-10-02 00:00:00"},"merchantId":null}
+2020-10-01T18:46:20+00:00 INFO Paying order #13853
+2020-10-01T18:46:36+00:00 INFO Entering callback_return
+2020-10-01T18:46:36+00:00 INFO Calling the flow service: payment/getStatus
+2020-10-01T18:46:36+00:00 INFO With params: {"token":"B9B3D5FA7704F52478579CBBD77C9C27F15FEA1F"}
+2020-10-01T18:46:39+00:00 INFO Flow result: {"flowOrder":23599847,"commerceOrder":"13853","requestDate":"2020-10-01 15:43:45","status":2,"subject":"Orden: 13853 - Lida Linea Completa Chile","currency":"CLP","amount":"27850","payer":"contreras.gomez.8714@gmail.com","optional":null,"pending_info":{"media":null,"date":null},"paymentData":{"date":"2020-10-01 15:46:14","media":"Webpay","conversionDate":null,"conversionRate":null,"amount":"27850.00","currency":"CLP","fee":"888.00","taxes":169,"balance":26793,"transferDate":"2020-10-02 00:00:00"},"merchantId":null}
+2020-10-01T18:46:39+00:00 INFO Redirecting to the success page...
+2020-10-01T19:07:42+00:00 INFO Entering process_payment
+2020-10-01T19:07:42+00:00 INFO Calling Flow service: payment/create with params: {"commerceOrder":13854,"subject":"Orden: 13854 - Lida Linea Completa Chile","amount":31000,"email":"anahi.jarap@gmail.com","urlConfirmation":"https:\/\/www.lidalineacompletachile.cl\/?wc-api=confirm_flow_webpay","urlReturn":"https:\/\/www.lidalineacompletachile.cl\/?wc-api=return_flow_webpay","paymentMethod":1}
+2020-10-01T19:07:44+00:00 INFO Flow response: {"token":"6B73D2954A46974FE716FD30B1D549DD20D4EE5T","url":"https:\/\/www.flow.cl\/app\/web\/pay.php","flowOrder":23601684}
+2020-10-01T19:09:06+00:00 INFO Entering callback_return
+2020-10-01T19:09:06+00:00 INFO Calling the flow service: payment/getStatus
+2020-10-01T19:09:06+00:00 INFO With params: {"token":"6B73D2954A46974FE716FD30B1D549DD20D4EE5T"}
+2020-10-01T19:09:08+00:00 INFO Flow result: {"flowOrder":23601684,"commerceOrder":"13854","requestDate":"2020-10-01 16:07:44","status":1,"subject":"Orden: 13854 - Lida Linea Completa Chile","currency":"CLP","amount":"31000","payer":"anahi.jarap@gmail.com","optional":null,"pending_info":{"media":null,"date":null},"paymentData":{"date":null,"media":null,"conversionDate":null,"conversionRate":null,"amount":null,"fee":null,"balance":null,"transferDate":null},"merchantId":null}
+2020-10-01T19:09:08+00:00 INFO User canceled the payment. Redirecting to checkout...
+2020-10-01T19:49:29+00:00 INFO Entering callback_return
+2020-10-01T19:49:29+00:00 INFO Calling the flow service: payment/getStatus
+2020-10-01T19:49:29+00:00 INFO With params: {"token":"3729C5EE3113F29EFC68B15FA2201DCCD297E54L"}
+2020-10-01T19:49:30+00:00 INFO Flow result: {"flowOrder":23598570,"commerceOrder":"13852","requestDate":"2020-10-01 15:26:49","status":2,"subject":"Orden: 13852 - Lida Linea Completa Chile","currency":"CLP","amount":"27850","payer":"mezac95@gmaii.com","optional":null,"pending_info":{"media":null,"date":null},"paymentData":{"date":"2020-10-01 15:28:49","media":"Webpay","conversionDate":null,"conversionRate":null,"amount":"27850.00","currency":"CLP","fee":"888.00","taxes":169,"balance":26793,"transferDate":"2020-10-02 00:00:00"},"merchantId":null}
+2020-10-01T19:49:30+00:00 INFO Redirecting to the success page...
+2020-10-01T20:11:48+00:00 INFO Entering process_payment
+2020-10-01T20:11:48+00:00 INFO Calling Flow service: payment/create with params: {"commerceOrder":13855,"subject":"Orden: 13855 - Lida Linea Completa Chile","amount":27850,"email":"soledad.reyes25@hotmail.com","urlConfirmation":"https:\/\/www.lidalineacompletachile.cl\/?wc-api=confirm_flow_webpay","urlReturn":"https:\/\/www.lidalineacompletachile.cl\/?wc-api=return_flow_webpay","paymentMethod":1}
+2020-10-01T20:11:49+00:00 INFO Flow response: {"token":"F8EB6E35C8B478ADE0E3F9BE7C858E4B120E738T","url":"https:\/\/www.flow.cl\/app\/web\/pay.php","flowOrder":23607163}
